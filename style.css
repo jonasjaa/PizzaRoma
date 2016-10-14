@@ -1,8 +1,9 @@
 #header{
-	width: 100vh;
-	height: 200px;
-	background-color: black;
-	margin:auto;
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-color: #c2203b;
+	margin:0;
 }
 
 body{
