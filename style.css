@@ -12,7 +12,7 @@ body{
 article{
 	position: absolute;
 	left:0;
-	top:100px;
+	top:155px;
 	width:100%;
 	min-height:100vh;
 	background-color: darkgrey;
@@ -198,5 +198,10 @@ article{
 
 #box1grill{
 	position: absolute;
+		left:0;
+		top:0;
+	width:20%;
+	height:20%;
+	background-color:red;
 
 }
