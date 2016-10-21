@@ -57,7 +57,7 @@ article{
 	margin: 0;
 	border-top: solid 1px;
 	border-bottom: solid 1px;
-	z-index: 2;
+	z-index: 3;
 }
 
 #meny1{
@@ -211,7 +211,7 @@ article{
 	position: absolute;
 	width: 20%;
 	height: 35%;
-	z-index: 10;
+	z-index: 2;
 	top: 1%;
 }
 #box1 {
@@ -239,7 +239,7 @@ article{
 	position: absolute;
 	width: 20%;
 	height: 35%;
-	z-index: 10;
+	z-index: 2;
 	top: 37%;
 }
 #box6 {
