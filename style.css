@@ -195,14 +195,3 @@ article{
 #menytxt:hover{
 	color:white;
 }
-
-#box1grill{
-	position: absolute;
-		left:0;
-		top:0;
-	width:20%;
-	height:;
-	background-color:red;
-	border-right:solid 1px;
-	border-bottom: solid 1px;
-}
