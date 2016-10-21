@@ -38,6 +38,7 @@ article{
 	margin:0;
 	z-index: 3;
 }
+
 #headerimg{
 	position: absolute;
 		top:7px;
@@ -49,7 +50,6 @@ article{
 
 #meny{
 	position: absolute;
-		top:100px;
 		left:0;
 	width:100%;
 	height:55px;
