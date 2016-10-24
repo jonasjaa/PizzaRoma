@@ -9,12 +9,12 @@ body{
 
 }
 
-article{
+#wrapper{
 	position: absolute;
 	left:0;
 	top:155px;
 	width:100%;
-	min-height:100vh;
+	height:810px;
 	background-color: darkgrey;
 }
 
@@ -26,6 +26,7 @@ article{
 	width:100%;
 	height: 50px;
 	margin:0;
+	z-index:3;
 }
 
 #header{
@@ -207,13 +208,6 @@ article{
 	border-bottom: solid 1px;
 }
 
-.box {
-	position: absolute;
-	width: 20%;
-	height: 35%;
-	z-index: 2;
-	top: 1%;
-}
 #box1 {
 	left: 0;
 	background-color: lightblue;
@@ -234,31 +228,35 @@ article{
 	left: 80%;
 	background-color: green;
 }
+
+.box {
+	position: absolute;
+	width: 20%;
+	height: 250px;
+	z-index: 2;
+	top: 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
 /* ANDRE RAD */
 .box1 {
 	position: absolute;
+	top:0;
 	width: 20%;
-	height: 35%;
+	height: 250px;
 	z-index: 2;
-	top: 37%;
+	top: 255px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
-#box6 {
-	left: 0;
-	background-color: lightblue;
-}
-#box7 {
-	left: 20%;
-	background-color: red;
-}
-#box8 {
-	left: 40%;
-	background-color: blue;
-}
-#box9 {
-	left: 60%;
-	background-color: yellow;
-}
-#box10 {
-	left: 80%;
-	background-color: green;
+/* TREDJE RAD */
+.box2 {
+	position: absolute;
+	top:0;
+	width: 20%;
+	height: 250px;
+	z-index: 2;
+	top: 510px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
