@@ -1,0 +1,18 @@
+How to push: 
+
+git commit -am "'melding'"
+git push (til lokal)
+git checkout master
+git pull (VELDIG VIKTIG!!!!) 
+git merge "branchnavn"
+git push (til public)
+git branch -d "din branch" (sletter branchen)
+git checkout -b "ny branchnavn" (lager en ny branch, som er up-to-date med master)
+
+How to pull:
+
+git checkout master
+git pull
+git checkout -b "ny branchnavn" (merger automagisk med master)
+
+ALDRI ENDRE SAMME FIL SAMTIDIG!!!!!!!!!!!!!!
