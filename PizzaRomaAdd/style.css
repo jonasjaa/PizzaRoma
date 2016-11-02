@@ -1,3 +1,76 @@
+@media screen and (min-width: 650px) {
+
+
+#box1 {
+	left: 0;
+	border: 1px solid black;
+	z-index: 3;
+}
+#box2 {
+	left: 20%;
+	border: 1px solid black;
+	z-index: 3;
+}
+#box3 {
+	left: 40%;
+	border: 1px solid black;
+	z-index: 3;
+}
+#box4 {
+	left: 60%;
+	border: 1px solid black;
+	z-index: 3;
+}
+#box5 {
+	left: 80%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	z-index: 3;
+}
+
+.box {
+	position: absolute;
+	width: 20%;
+	height: 250px;
+	z-index: 2;
+	top: 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: #ddddbb;
+}
+/* ANDRE RAD */
+.box1 {
+	position: absolute;
+	top:0;
+	width: 20%;
+	height: 250px;
+	z-index: 2;
+	top: 255px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: #ddddbb;
+}
+/* TREDJE RAD */
+.box2 {
+	position: absolute;
+	top:0;
+	width: 20%;
+	height: 250px;
+	z-index: 2;
+	top: 510px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: #ddddbb;
+	}
+}
+
+
+
+
+#menytxt:hover{
+	color:white;
+}
 body{
 	position: relative;
 	left:0;
@@ -191,6 +264,7 @@ body{
 	font-size: 20px;
 }
 
+<<<<<<< HEAD
 #menytxt:hover{
 	color:white;
 }
@@ -253,6 +327,8 @@ body{
 	margin-bottom: 50px;
 }
 
+=======
+>>>>>>> 540f1d267cbc4351f3c5d95af234d8478c2d4bab
 h1{
 	font-family: Trebuchet MS, sans-serif;
 	font-size: 1.7vw;
@@ -304,9 +380,9 @@ ol{
 
 
 
-@media screen and (max-width: 550px) {
-	#meny {
-	position: absolute;
+@media screen and (max-width: 650px) { 	
+#meny {
+	position: ;
 	left:0;
 	width:100%;
 	height:200px;
@@ -440,6 +516,79 @@ ol{
 	color:white;
 }
 
+#wrapper{
+	position: absolute;
+	left:0;
+	top:300px;
+	width:100%;
+	height:810px;
+	background-color: darkgrey;
+}
 
-	}
+
+	#box1 {
+	border: 1px solid black;
+	z-index: 3;
+	top:0;
+}
+#box2 {
+	
+	top:255px;
+	border: 1px solid black;
+	z-index: 3;
+}
+#box3 {
+
+	top: 510px;
+	border: 1px solid black;
+	z-index: 3;
+}
+#box4 {
+	
+	top:765px;
+	border: 1px solid black;
+	z-index: 3;
+}
+#box5 {
+	
+	top:1020px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	z-index: 3;
+}
+
+.box {
+	position: absolute;
+	width: 33.333333%;
+	height: 250px;
+	left: 0;
+	z-index: 2;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: #ddddbb;
+}
+/* ANDRE RAD */
+.box1 {
+	position: absolute;
+	left: 33.333333%;
+	width: 33.3333333%;
+	height: 250px;
+	z-index: 2;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: #ddddbb;
+}
+/* TREDJE RAD */
+.box2 {
+	position: absolute;
+	width: 33.3333333%;
+	left: 66.666666%;
+	height: 250px;
+	z-index: 2;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: #ddddbb;
+}
+
 }
