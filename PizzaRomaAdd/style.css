@@ -1,73 +1,3 @@
-@media screen and (min-width: 650px) {
-
-
-#box1 {
-	left: 0;
-	border: 1px solid black;
-	z-index: 3;
-}
-#box2 {
-	left: 20%;
-	border: 1px solid black;
-	z-index: 3;
-}
-#box3 {
-	left: 40%;
-	border: 1px solid black;
-	z-index: 3;
-}
-#box4 {
-	left: 60%;
-	border: 1px solid black;
-	z-index: 3;
-}
-#box5 {
-	left: 80%;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	border-left: 1px solid black;
-	z-index: 3;
-}
-
-.box {
-	position: absolute;
-	width: 20%;
-	height: 250px;
-	z-index: 2;
-	top: 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	background-color: #ddddbb;
-}
-/* ANDRE RAD */
-.box1 {
-	position: absolute;
-	top:0;
-	width: 20%;
-	height: 250px;
-	z-index: 2;
-	top: 255px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	background-color: #ddddbb;
-}
-/* TREDJE RAD */
-.box2 {
-	position: absolute;
-	top:0;
-	width: 20%;
-	height: 250px;
-	z-index: 2;
-	top: 510px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	background-color: #ddddbb;
-	}
-}
-
-
-
-
 #menytxt:hover{
 	color:white;
 }
@@ -88,7 +18,7 @@ body{
 	width:100%;
 	height: auto;
 	min-height: 100vh;	
-	background-color: blue;
+	background-color: white;
 }	
 #footer{
 	position: absolute;
@@ -97,7 +27,7 @@ body{
 	background-color: #c2203b;
 	width:100%;
 	height: 50px;
-	z-index:12309123;
+	z-index:10;
 }
 
 #header{
@@ -264,71 +194,10 @@ body{
 	font-size: 20px;
 }
 
-<<<<<<< HEAD
 #menytxt:hover{
 	color:white;
 }
 
-#box1 {
-	float:left;
-	z-index: 3;
-	border-right: 1px solid;
-}
-#box2 {
-	float:left;
-	z-index: 3;
-	border-right: 1px solid;
-	border-left: 1px solid;
-}
-#box3 {
-	float:left;
-	z-index: 3;
-	border-right: 1px solid;
-	border-left: 1px solid;
-}
-#box4 {
-	float:left;
-	z-index: 3;
-	border-right: 1px solid;
-	border-left: 1px solid;
-}
-#box5 {
-	float:left;
-	z-index: 3;
-	border-left: 1px solid;
-
-}
-
-.box {
-	box-sizing: border-box;
-	width: 20%;
-	height: auto;
-	z-index: 2;
-	margin-top:100px;
-	background-color: #ddddbb;
-}
-/* ANDRE RAD */
-.box1 {
-	box-sizing: border-box;
-	border-top: 1px solid;	
-	width: 20%;
-	height: auto;
-	z-index: 2;
-	background-color: #ddddbb;
-}
-/* TREDJE RAD */
-.box2 {
-	box-sizing: border-box;
-	border-top: 1px solid;
-	width: 20%;
-	height: auto;
-	z-index: 2;
-	background-color: #ddddbb;
-	margin-bottom: 50px;
-}
-
-=======
->>>>>>> 540f1d267cbc4351f3c5d95af234d8478c2d4bab
 h1{
 	font-family: Trebuchet MS, sans-serif;
 	font-size: 1.7vw;
@@ -358,9 +227,9 @@ h3{
 
 #allergentextdiv{
 	position: relative;
-		left:65%;
-		transform: translate(-50%);
-		top:0;
+	left:65%;
+	transform: translate(-50%);
+	top:0;
 	width:70%;
 }
 
@@ -377,10 +246,69 @@ ol{
 	line-height: 2.5em;
 }
 
+@media screen and (min-width: 650px) {
 
+	#box1 {
+		float:left;
+		z-index: 3;
+		border-right: 1px solid;
+	}
+	#box2 {
+		float:left;
+		z-index: 3;
+		border-right: 1px solid;
+		border-left: 1px solid;
+	}
+	#box3 {
+		float:left;
+		z-index: 3;
+		border-right: 1px solid;
+		border-left: 1px solid;
+	}
+	#box4 {
+		float:left;
+		z-index: 3;
+		border-right: 1px solid;
+		border-left: 1px solid;
+	}
+	#box5 {
+		float:left;
+		z-index: 3;
+		border-left: 1px solid;
 
+	}
+
+	.box {
+		box-sizing: border-box;
+		width: 20%;
+		height: auto;
+		z-index: 2;
+		margin-top:100px;
+		background-color: #ddddbb;
+	}
+	/* ANDRE RAD */
+	.box1 {
+		box-sizing: border-box;
+		border-top: 1px solid;	
+		width: 20%;
+		height: auto;
+		z-index: 2;
+		background-color: #ddddbb;
+	}
+	/* TREDJE RAD */
+	.box2 {
+		box-sizing: border-box;
+		border-top: 1px solid;
+		width: 20%;
+		height: auto;
+		z-index: 2;
+		background-color: #ddddbb;
+		margin-bottom: 50px;
+	}
+}
 
 @media screen and (max-width: 650px) { 	
+
 #meny {
 	position: ;
 	left:0;
@@ -521,74 +449,65 @@ ol{
 	left:0;
 	top:300px;
 	width:100%;
-	height:810px;
-	background-color: darkgrey;
+	height: auto;
+	min-height: 100vh;	
+	background-color: blue;
 }
 
 
-	#box1 {
-	border: 1px solid black;
+#box1 {
+	float:left;
 	z-index: 3;
-	top:0;
+	border-left: 1px solid;
 }
 #box2 {
-	
-	top:255px;
-	border: 1px solid black;
+	float:left;
 	z-index: 3;
+	border-left: 1px solid;
 }
 #box3 {
-
-	top: 510px;
-	border: 1px solid black;
+	float:left;
 	z-index: 3;
+	border-left: 1px solid;
 }
 #box4 {
-	
-	top:765px;
-	border: 1px solid black;
+	float:left;
 	z-index: 3;
+	border-left: 1px solid;
 }
 #box5 {
-	
-	top:1020px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	border-left: 1px solid black;
+	float:left;
 	z-index: 3;
+	border-left: 1px solid;
 }
 
 .box {
-	position: absolute;
-	width: 33.333333%;
-	height: 250px;
-	left: 0;
+	box-sizing: border-box;
+	border-top: 1px solid;
+	width: 33.333333333%;
+	height: auto;
 	z-index: 2;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
 	background-color: #ddddbb;
 }
 /* ANDRE RAD */
 .box1 {
-	position: absolute;
-	left: 33.333333%;
-	width: 33.3333333%;
-	height: 250px;
+	box-sizing: border-box;
+	border-top: 1px solid;
+	width: 33.333333333%;
+	height: auto;
 	z-index: 2;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
 	background-color: #ddddbb;
 }
 /* TREDJE RAD */
 .box2 {
-	position: absolute;
-	width: 33.3333333%;
-	left: 66.666666%;
-	height: 250px;
+	box-sizing: border-box;
+	border-top: 1px solid;
+	width: 33.333333333%;
+	height: auto;
 	z-index: 2;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
 	background-color: #ddddbb;
 }
 
+#box5.box2{
+	margin-bottom: 50px;
 }

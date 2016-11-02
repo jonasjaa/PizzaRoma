@@ -11,7 +11,6 @@ function scrollStopMeny(){
 
 window.onscroll = function(){
 	scrollStopMeny();
-	makeWrapperBigger();
 }
 
 
