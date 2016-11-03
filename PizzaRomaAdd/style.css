@@ -41,15 +41,6 @@ body{
 	z-index: 3;
 }
 
-#headerimg{
-	position: absolute;
-		top:7px;
-		left:33.52%;
-		margin:0;
-	height:85%;
-	width:450px;
-}
-
 #meny{
 	position: absolute;
 		left:0;
@@ -247,6 +238,15 @@ ol{
 }
 
 @media screen and (min-width: 650px) {
+	#headerimg{
+	position: absolute;
+	top:7px;
+	left:27.5%;
+	margin:0;
+	height:85%;
+	width:45%;
+	}
+
 
 	#box1 {
 		float:left;
@@ -307,7 +307,15 @@ ol{
 	}
 }
 
-@media screen and (max-width: 650px) { 	
+@media screen and (max-width: 650px) {
+	#headerimg{
+	position: absolute;
+		top:7px;
+		left:20%;
+		margin:0;
+	height:85%;
+	width:60%;
+}
 
 #meny {
 	position: ;
