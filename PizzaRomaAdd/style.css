@@ -17,9 +17,9 @@ body{
 	top:55px;
 	width:100%;
 	height: auto;
-	min-height: 100vh;	
+	min-height: 100vh;
 	background-color: white;
-}	
+}
 #footer{
 	position: absolute;
 		bottom: 0;
@@ -246,6 +246,59 @@ ol{
 	line-height: 2.5em;
 }
 
+
+	#omoss{
+		margin-top: 8%;
+		width: 100%;
+		text-align: center;
+		position: absolute;
+	}
+
+	#åpningstider{
+		font-family: Trebuchet MS, sans-serif;
+		font-size: 22px;;
+		margin-left: 10%;
+		width: 40%;
+		height: 50%;'
+		position: relative;
+		display: inline-block;
+	}
+
+	#generellInfo{
+		font-family: Trebuchet MS, sans-serif;
+		font-size: 22px;
+		position: relative;
+		margin-top: 12%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		text-align: center;
+	}
+
+	#omossikon{
+		position: relative;
+		width: 50%;
+		height: 100px;
+		margin-left: 25%;
+	}
+
+	#adresse{
+		position: relative;
+		font-family: Trebuchet MS, sans-serif;
+		font-size: 22px;
+		display: inline-block;
+		margin-left: 20%;
+
+	}
+
+	#kontaktinfo{
+		position: relative;
+		font-family: Trebuchet MS, sans-serif;
+		font-size: 22px;
+		display: inline-block;
+		margin-left: -5%;
+	}
+
 @media screen and (min-width: 650px) {
 
 	#box1 {
@@ -289,7 +342,7 @@ ol{
 	/* ANDRE RAD */
 	.box1 {
 		box-sizing: border-box;
-		border-top: 1px solid;	
+		border-top: 1px solid;
 		width: 20%;
 		height: auto;
 		z-index: 2;
@@ -307,7 +360,7 @@ ol{
 	}
 }
 
-@media screen and (max-width: 650px) { 	
+@media screen and (max-width: 650px) {
 
 #meny {
 	position: ;
@@ -450,7 +503,7 @@ ol{
 	top:300px;
 	width:100%;
 	height: auto;
-	min-height: 100vh;	
+	min-height: 100vh;
 	background-color: blue;
 }
 
