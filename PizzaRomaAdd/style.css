@@ -75,7 +75,11 @@ body{
 	border-color:black;
 	margin:0;
 	background-color: #d6334e;
-	color:white;
+	
+}
+
+#meny1:hover p {
+    color: #FFF;
 }
 
 #meny2{
@@ -102,6 +106,10 @@ body{
 	margin:0;
 	background-color: #d6334e;
 	color:white;
+}
+
+#meny2:hover p {
+    color: #FFF;
 }
 
 #meny2dropdown{
@@ -145,8 +153,8 @@ body{
 
 #meny3{
 	position: absolute;
-		top:0;
-		left:40%;
+    top:0;
+    left:40%;
 	width:20%;
 	height:100%;
 	border-right:solid 1px;
@@ -157,8 +165,8 @@ body{
 
 #meny3:hover{
 	position: absolute;
-		top:0;
-		left:40%;
+    top:0;
+    left:40%;
 	width:20%;
 	height:100%;
 	border-right:solid 1px;
@@ -166,42 +174,50 @@ body{
 	margin:0;
 	background-color: #d6334e;
 	color:white;
+}
+
+#meny3:hover p {
+    color: #FFF;
 }
 
 #meny4{
-	position: absolute;
-		top:0;
-		left:60%;
-	width:20%;
-	height:100%;
-	border-right:solid 1px;
-	border-color:black;
-	margin:0;
-	color:black;
+position: absolute;
+top:0;
+left:60%;
+width:20%;
+height:100%;
+border-right:solid 1px;
+border-color:black;
+margin:0;
+color:black;
 }
 
 #meny4:hover{
-	position: absolute;
-		top:0;
-		left:60%;
-	width:20%;
-	height:100%;
-	border-right:solid 1px;
-	border-color:black;
-	margin:0;
-	background-color: #d6334e;
-	color:white;
+position: absolute;
+    top:0;
+    left:60%;
+width:20%;
+height:100%;
+border-right:solid 1px;
+border-color:black;
+margin:0;
+background-color: #d6334e;
+color:white;
+}
+
+#meny4:hover p {
+    color: #FFF;
 }
 
 #meny5{
-	position: absolute;
-		top:0;
-		left:80%;
-	width:20%;
-	height:100%;
-	border-color:black;
-	margin:0;
-	color:black;
+position: absolute;
+    top:0;
+    left:80%;
+width:20%;
+height:100%;
+border-color:black;
+margin:0;
+color:black;
 }
 
 #meny5:hover{
@@ -214,6 +230,9 @@ body{
 	margin:0;
 	background-color: #d6334e;
 	color:white;
+}
+#meny5:hover p {
+    color: #FFF;
 }
 
 #menytxt{
