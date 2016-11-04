@@ -286,25 +286,13 @@ ol{
 
 #generellInfo{
 	font-family: Trebuchet MS, sans-serif;
-	font-size: 20px;
+	font-size: 16px;
+	font-weight: bold;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
 	text-align: center;
-}
-
-#omossDIV{
-	position: absolute;
-	top:45%;
-	left:50%;
-	transform: translate(-50%);
-	border: 1px solid;
-	padding:20px;
-	border-radius: 10px;
-	width:80%;
-	height:auto;
-	background-color: #ddddbb;
 }
 
 #omossDIV2{
@@ -319,9 +307,22 @@ ol{
 	background-color: #ddddbb;
 }
 
+#omossDIV{
+	position: absolute;
+	top:45%;
+	left:24%;
+	transform: translate(-50%);
+	border: 1px solid;
+	padding:20px;
+	border-radius: 10px;
+	width:43%;
+	height:auto;
+	background-color: #ddddbb;
+}
+
 #åpningstider{
 	font-family: Trebuchet MS, sans-serif;
-	font-size: 22px;
+	font-size: 16px;
 	left:0;
 	height: 50%;'
 	position: absolute;
@@ -330,15 +331,15 @@ ol{
 
 #telefon{
 	position: absolute;
-	width: 20%;
-	height: 170px;
-	left:70%;
-	top:15%;
+	width: 15%;
+	height: 150px;
+	left:72%;
+	top:10%;
 	padding:15px;
 	border: 1px solid;
 	border-radius: 5px;
 	font-family: Trebuchet MS, sans-serif;
-	font-size: 22px;;
+	font-size: 17px;
 	display: inline-block;
 	text-align: center;
 	box-shadow: 10px 10px 5px #888888;
@@ -346,15 +347,15 @@ ol{
 
 #adresse{
 	position: absolute;
-	width: 20%;
-	height: 170px;
-	left:40%;
-	top:15%;
+	width: 15%;
+	height: 150px;
+	left:45%;
+	top:10%;
 	padding:15px;
 	border: 1px solid;
 	border-radius: 5px;
 	font-family: Trebuchet MS, sans-serif;
-	font-size: 22px;;
+	font-size: 20px;;
 	display: inline-block;
 	text-align: center;
 	box-shadow: 10px 10px 5px #888888;
@@ -378,16 +379,28 @@ ol{
 	margin-left: -5%;
 }
 
+#googleMaps{
+	position: absolute;
+	transform: translate(-50%);
+	left:74%;
+	top:45%;
+	height: 280px;
+	border-radius: 10px;
+	width:50%;
+	border: 1px solid	;
+}
+
 /*==========================================================================================*/
 
 @media screen and (min-width: 650px) {
 	#headerimg{
 	position: absolute;
 	top:7px;
-	left:27.5%;
+	left:50%;
+	transform: translate(-50%);
 	margin:0;
 	height:85%;
-	width:45%;
+	width:35%;
 	}
 
 

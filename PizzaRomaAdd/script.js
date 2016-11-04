@@ -1,3 +1,7 @@
+/*================================================================================*/
+/*Meny fixed to top when scrolling function */
+
+
 function scrollStopMeny(){
 	if(document.body.scrollTop > 100){
 		document.getElementById('meny').style.top = "0";
@@ -13,7 +17,8 @@ window.onscroll = function(){
 	scrollStopMeny();
 }
 
-
+/*================================================================================*/
+/*Meny dropdown function*/
 
 let meny = document.getElementById('meny2');
 let meny2dropdown = document.getElementById('meny2dropdown');
@@ -38,3 +43,18 @@ meny.addEventListener('mouseout' , function (event) {
     meny2dropdown.style.display = "none";
     
 })
+
+/*================================================================================*/
+/*googleMaps*/
+
+function googleMaps() {
+        var uluru = {lat: 63.42982, lng: 10.36732};
+        var map = new google.maps.Map(document.getElementById('googleMaps'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
