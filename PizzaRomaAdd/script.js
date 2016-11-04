@@ -22,9 +22,8 @@ let dropdownting = document.getElementsByClassName('dropdownting');
 /* Mouseover functions */
 
 meny.addEventListener('mouseover' , function (event) {
-    meny2dropdown.style.opacity = 1;
+	meny2dropdown.style.opacity = 1;
     meny2dropdown.style.display = "initial";
-    
 })
 
 /* Mouseout functions*/

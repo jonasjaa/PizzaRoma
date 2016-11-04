@@ -106,31 +106,29 @@ body{
 
 #meny2dropdown{
 	position: absolute;
-    top:101%;
+    top:100%;
     left:5%;
 	width:auto;
     min-width: 90%;
     max-width: 100%;
 	height:auto;
 	border:solid 1px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
 	border-color:black;
 	margin:0;
 	background-color: white;
-	color:white;
     display: none;
     opacity: 0;
     background-color: #d9d9d9;
-        
 }
 
 #meny2dropdown a {
-    color: black;
     padding: 7px 8px 7px 8px;
     text-decoration: none;
     display: block;
 }
 .dropdownting{
-	margin-top:6px;
 	text-align: center;
 	font-family:  "Arial Black", Gadget, sans-serif;
 	font-weight: bold;
@@ -138,6 +136,11 @@ body{
 	color: black;
     opacity: 1;
     z-index: 2;
+}
+
+.dropdownting:hover{
+	background-color: #d6334e;
+	color: white;
 }
 
 #meny3{
