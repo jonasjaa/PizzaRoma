@@ -129,6 +129,7 @@ body{
     display: none;
     opacity: 0;
     background-color: #d9d9d9;
+    z-index: 101;
 }
 
 #meny2dropdown a {
@@ -296,120 +297,8 @@ ol{
 	line-height: 2.5em;
 }
 
-#omoss{
-	margin-top: 8%;
-	width: 100%;
-	text-align: center;
-	position: absolute;
-}
 
-#generellInfo{
-	font-family: Trebuchet MS, sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-	text-align: center;
-}
-
-#omossDIV2{
-	position: absolute;
-	top:17%;
-	left:50%;
-	height:auto;
-	transform: translate(-50%);
-	border: 1px solid;
-	border-radius: 10px;
-	width:90%;
-	background-color: #ddddbb;
-}
-
-#omossDIV{
-	position: absolute;
-	top:45%;
-	left:24%;
-	transform: translate(-50%);
-	border: 1px solid;
-	padding:20px;
-	border-radius: 10px;
-	width:43%;
-	height:auto;
-	background-color: #ddddbb;
-}
-
-#åpningstider{
-	font-family: Trebuchet MS, sans-serif;
-	font-size: 16px;
-	left:0;
-	height: 50%;'
-	position: absolute;
-	display: inline-block;
-}
-
-#telefon{
-	position: absolute;
-	width: 15%;
-	height: 150px;
-	left:72%;
-	top:10%;
-	padding:15px;
-	border: 1px solid;
-	border-radius: 5px;
-	font-family: Trebuchet MS, sans-serif;
-	font-size: 17px;
-	display: inline-block;
-	text-align: center;
-	box-shadow: 10px 10px 5px #888888;
-}
-
-#adresse{
-	position: absolute;
-	width: 15%;
-	height: 150px;
-	left:45%;
-	top:10%;
-	padding:15px;
-	border: 1px solid;
-	border-radius: 5px;
-	font-family: Trebuchet MS, sans-serif;
-	font-size: 20px;;
-	display: inline-block;
-	text-align: center;
-	box-shadow: 10px 10px 5px #888888;
-}
-
-#adressebilde{
-	height:40%;
-	width:40%;
-}
-
-#telefonbilde{
-	height:40%;
-	width:40%;
-}
-
-#kontaktinfo{
-	position: relative;
-	font-family: Trebuchet MS, sans-serif;
-	font-size: 22px;
-	display: inline-block;
-	margin-left: -5%;
-}
-
-#googleMaps{
-	position: absolute;
-	transform: translate(-50%);
-	left:74%;
-	top:45%;
-	height: 280px;
-	border-radius: 10px;
-	width:50%;
-	border: 1px solid	;
-}
-
-/*==========================================================================================*/
+/*==================STOR========================================================================*/
 
 @media screen and (min-width: 650px) {
 	#headerimg{
@@ -510,9 +399,244 @@ ol{
 		background-color: #ddddbb;
 		margin-bottom: 50px;
 	}
+    
+    #omoss{
+	margin-top: 8%;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+    }
+
+    #generellInfo{
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    #omossDIV2{
+        position: absolute;
+        top:17%;
+        left:50%;
+        height:auto;
+        transform: translate(-50%);
+        border: 1px solid;
+        border-radius: 10px;
+        width:90%;
+        
+        background-color: #ddddbb;
+    }
+
+    #omossDIV{
+        position: absolute;
+        top:36%;
+        left:24%;
+        transform: translate(-50%);
+        border: 1px solid;
+        padding:20px;
+        border-radius: 10px;
+        width:43%;
+        min-width: 450px;
+        height:auto;
+        background-color: #ddddbb;
+    }
+
+    #åpningstider{
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 16px;
+        left:0;
+        height: 50%;'
+        position: absolute;
+        display: inline-block;
+    }
+
+    #telefon{
+        position: absolute;
+        width: 15%;
+        height: 150px;
+        left:72%;
+        top:10%;
+        padding:15px;
+        border: 1px solid;
+        border-radius: 5px;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 17px;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 10px 10px 5px #888888;
+    }
+
+    #adresse{
+        position: absolute;
+        width: 15%;
+        height: 150px;
+        left:45%;
+        top:10%;
+        padding:15px;
+        border: 1px solid;
+        border-radius: 5px;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 20px;;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 10px 10px 5px #888888;
+    }
+
+    #adressebilde{
+        height:40%;
+        width:40%;
+    }
+
+    #telefonbilde{
+        height:40%;
+        width:40%;
+    }
+
+    #kontaktinfo{
+        position: relative;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 22px;
+        display: inline-block;
+        margin-left: -5%;
+    }
+
+    #googleMaps{
+        position: absolute;
+        transform: translate(-50%);
+        left:74%;
+        top:36%;
+        height: 280px;
+        border-radius: 10px;
+        width:50%;
+        border: 1px solid;
+    }
+
 }
 
-/*==========================================================================================*/
+/* ENDRINGER I OM OSS, RESPONSIVE DIVS DER */
+
+@media screen and (max-width: 1255px) {
+        
+    #omoss{
+	margin-top: 8%;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+    }
+
+    #generellInfo{
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    #omossDIV2{
+        position: absolute;
+        top:17%;
+        left:50%;
+        height:auto;
+        min-height: 175px;
+        transform: translate(-50%);
+        border: 1px solid;
+        border-radius: 10px;
+        width:90%;
+        background-color: #ddddbb;
+    }
+
+    #omossDIV{
+        position: absolute;
+        top:38%;
+        left:50%;
+        transform: translate(-50%);
+        border: 1px solid;
+        padding:20px;
+        border-radius: 10px;
+        width:60%;
+        height:auto;
+        background-color: #ddddbb;
+    }
+
+    #åpningstider{
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 16px;
+        left:0;
+        height: 50%;'
+        position: absolute;
+        display: inline-block;
+    }
+
+    #telefon{
+        position: absolute;
+        width: 15%;
+        height: 150px;
+        left:72%;
+        top:10%;
+        padding:15px;
+        border: 1px solid;
+        border-radius: 5px;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 17px;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 10px 10px 5px #888888;
+    }
+
+    #adresse{
+        position: absolute;
+        width: 15%;
+        height: 150px;
+        left:45%;
+        top:10%;
+        padding:15px;
+        border: 1px solid;
+        border-radius: 5px;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 20px;;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 10px 10px 5px #888888;
+    }
+
+    #adressebilde{
+        height:40%;
+        width:40%;
+    }
+
+    #telefonbilde{
+        height:40%;
+        width:40%;
+    }
+
+    #kontaktinfo{
+        position: relative;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 22px;
+        display: inline-block;
+        margin-left: -5%;
+    }
+
+    #googleMaps{
+        position: absolute;
+        transform: translate(-50%);
+        left:50%;
+        top:65%;
+        height: 280px;
+        border-radius: 10px;
+        width:80%;
+        border: 1px solid;
+    }
+}
+
+/*=========================================================================================LITEN=*/
 
 @media screen and (max-width: 650px) {
 	#headerimg{
@@ -585,6 +709,14 @@ ol{
 		background-color: #d6334e;
 		color:white;
 	}
+    
+    #meny2dropdown{
+	width:auto;
+    min-width: 55%;
+    max-width: 90%;
+    transform: translate(-50%);
+    left: 50%;
+    }
 
 	#meny3{
 		position: absolute;
@@ -725,6 +857,47 @@ ol{
 	#box5.box2{
 		margin-bottom: 50px;
 	}
+    
+     #omossDIV{
+        position: absolute;
+        top:24%;
+        left:50%;
+        transform: translate(-50%);
+        border: 1px solid;
+        padding:20px;
+        border-radius: 10px;
+        width:84%;
+        min-width: 480px;
+        height:auto;
+        background-color: #ddddbb;
+    }
+    
+        #googleMaps{
+        position: absolute;
+        transform: translate(-50%);
+        left:50%;
+        top:51%;
+        height: 280px;
+        border-radius: 10px;
+        width:80%;
+        border: 1px solid;
+        min-width: 500px;
+    }
+    
+    #omossDIV2{
+        position: absolute;
+        top:2%;
+        left:50%;
+        height:auto;
+        transform: translate(-50%);
+        border: 1px solid;
+        border-radius: 10px;
+        width:90%;
+        min-width: 500px;
+        
+        background-color: #ddddbb;
+    }
+    
 }
 
-/*==========================================================================================*/
+/*======================================================================================*/
