@@ -41,15 +41,6 @@ body{
 	z-index: 3;
 }
 
-#headerimg{
-	position: absolute;
-		top:7px;
-		left:33.52%;
-		margin:0;
-	height:85%;
-	width:450px;
-}
-
 #meny{
 	position: absolute;
 		left:0;
@@ -89,20 +80,21 @@ body{
 
 #meny2{
 	position: absolute;
-		top:0;
-		left:20%;
+    top:0;
+    left:20%;
 	width:20%;
 	height:100%;
 	border-right:solid 1px;
 	border-color:black;
 	margin:0;
 	color:black;
+    
 }
 
 #meny2:hover{
 	position: absolute;
-		top:0;
-		left:20%;
+    top:0;
+    left:20%;
 	width:20%;
 	height:100%;
 	border-right:solid 1px;
@@ -110,6 +102,42 @@ body{
 	margin:0;
 	background-color: #d6334e;
 	color:white;
+}
+
+#meny2dropdown{
+	position: absolute;
+    top:101%;
+    left:5%;
+	width:auto;
+    min-width: 90%;
+    max-width: 100%;
+	height:auto;
+	border:solid 1px;
+	border-color:black;
+	margin:0;
+	background-color: white;
+	color:white;
+    display: none;
+    opacity: 0;
+    background-color: #d9d9d9;
+        
+}
+
+#meny2dropdown a {
+    color: black;
+    padding: 7px 8px 7px 8px;
+    text-decoration: none;
+    display: block;
+}
+.dropdownting{
+	margin-top:6px;
+	text-align: center;
+	font-family:  "Arial Black", Gadget, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+    opacity: 1;
+    z-index: 2;
 }
 
 #meny3{
@@ -300,33 +328,42 @@ ol{
 	}
 
 @media screen and (min-width: 650px) {
+	#headerimg{
+	position: absolute;
+	top:7px;
+	left:27.5%;
+	margin:0;
+	height:85%;
+	width:45%;
+	}
+
 
 	#box1 {
 		float:left;
-		z-index: 3;
+		z-index: 4;
 		border-right: 1px solid;
 	}
 	#box2 {
 		float:left;
-		z-index: 3;
+		z-index: 4;
 		border-right: 1px solid;
 		border-left: 1px solid;
 	}
 	#box3 {
 		float:left;
-		z-index: 3;
+		z-index: 4;
 		border-right: 1px solid;
 		border-left: 1px solid;
 	}
 	#box4 {
 		float:left;
-		z-index: 3;
+		z-index: 4;
 		border-right: 1px solid;
 		border-left: 1px solid;
 	}
 	#box5 {
 		float:left;
-		z-index: 3;
+		z-index: 4;
 		border-left: 1px solid;
 
 	}
@@ -335,7 +372,7 @@ ol{
 		box-sizing: border-box;
 		width: 20%;
 		height: auto;
-		z-index: 2;
+		z-index: 3;
 		margin-top:100px;
 		background-color: #ddddbb;
 	}
@@ -345,7 +382,7 @@ ol{
 		border-top: 1px solid;
 		width: 20%;
 		height: auto;
-		z-index: 2;
+		z-index: 3;
 		background-color: #ddddbb;
 	}
 	/* TREDJE RAD */
@@ -354,13 +391,14 @@ ol{
 		border-top: 1px solid;
 		width: 20%;
 		height: auto;
-		z-index: 2;
+		z-index: 3;
 		background-color: #ddddbb;
 		margin-bottom: 50px;
 	}
 }
 
 @media screen and (max-width: 650px) {
+<<<<<<< HEAD
 
 #meny {
 	position: ;
@@ -412,84 +450,158 @@ ol{
 }
 
 #meny2:hover{
+=======
+	#headerimg{
+>>>>>>> 702cae0185920ee2fea562bb534a1016cfab34fb
 	position: absolute;
-		top:40px;
-		left:0;
-	width:100%;
-	height:40px;
-	border-right:solid 1px;
-	border-color:black;
-	margin:0;
-	background-color: #d6334e;
-	color:white;
+		top:7px;
+		left:20%;
+		margin:0;
+	height:85%;
+	width:60%;
 }
 
-#meny3{
-	position: absolute;
-		top:80px;
+	#meny {
+		position: ;
 		left:0;
 		width:100%;
-	height:40px;
-	border-right:solid 1px;
-	border-color:black;
-	margin:0;
-	color:black;
-}
+		height:200px;
+		background-color: #d9d9d9;
+		margin: 0;
+		border-top: solid 1px;
+		border-bottom: solid 1px;
+		z-index:100;
+	}
 
-#meny3:hover{
-	position: absolute;
-		top:80px;
-		left:0;
+	#meny1 {
+		position: absolute;
+			top:0;
+			left:0;
 		width:100%;
-	height:40px;
-	border-right:solid 1px;
-	border-color:black;
-	margin:0;
-	background-color: #d6334e;
-	color:white;
-}
+		height:40px;
+		border-right:solid 1px;
+		border-color:black;
+		margin:0;
+		color:black;
+	}
 
-#meny4{
-	position: absolute;
-		top:120px;
-		left:0;
+	#meny1:hover{
+		position: absolute;
+			top:0;
+			left:0;
 		width:100%;
-	height:40px;
-	border-right:solid 1px;
-	border-color:black;
-	margin:0;
-	color:black;
-}
+		height:40px;
+		border-right:solid 1px;
+		border-color:black;
+		margin:0;
+		background-color: #d6334e;
+		color:white;
+	}
 
-#meny4:hover{
-	position: absolute;
-		top:120px;
-		left:0;
+	#meny2{
+		position: absolute;
+			top:40px;
+			left:0;
 		width:100%;
-	height:40px;
-	border-right:solid 1px;
-	border-color:black;
-	margin:0;
-	background-color: #d6334e;
-	color:white;
-}
+		height:40px;
+		border-right:solid 1px;
+		border-color:black;
+		margin:0;
+		color:black;
+	}
 
-#meny5{
-	position: absolute;
-		top:160px;
-		left:0;
+	#meny2:hover{
+		position: absolute;
+			top:40px;
+			left:0;
 		width:100%;
-	height:40px;
-	border-color:black;
-	margin:0;
-	color:black;
-}
+		height:40px;
+		border-right:solid 1px;
+		border-color:black;
+		margin:0;
+		background-color: #d6334e;
+		color:white;
+	}
 
-#meny5:hover{
-	position: absolute;
-		top:160px;
+	#meny3{
+		position: absolute;
+			top:80px;
+			left:0;
+			width:100%;
+		height:40px;
+		border-right:solid 1px;
+		border-color:black;
+		margin:0;
+		color:black;
+	}
+
+	#meny3:hover{
+		position: absolute;
+			top:80px;
+			left:0;
+			width:100%;
+		height:40px;
+		border-right:solid 1px;
+		border-color:black;
+		margin:0;
+		background-color: #d6334e;
+		color:white;
+	}
+
+	#meny4{
+		position: absolute;
+			top:120px;
+			left:0;
+			width:100%;
+		height:40px;
+		border-right:solid 1px;
+		border-color:black;
+		margin:0;
+		color:black;
+	}
+
+	#meny4:hover{
+		position: absolute;
+			top:120px;
+			left:0;
+			width:100%;
+		height:40px;
+		border-right:solid 1px;
+		border-color:black;
+		margin:0;
+		background-color: #d6334e;
+		color:white;
+	}
+
+	#meny5{
+		position: absolute;
+			top:160px;
+			left:0;
+			width:100%;
+		height:40px;
+		border-color:black;
+		margin:0;
+		color:black;
+	}
+
+	#meny5:hover{
+		position: absolute;
+			top:160px;
+			left:0;
+			width:100%;
+		height:40px;
+		border-color:black;
+		margin:0;
+		background-color: #d6334e;
+		color:white;
+	}
+
+	#wrapper{
+		position: absolute;
 		left:0;
+		top:300px;
 		width:100%;
+<<<<<<< HEAD
 	height:40px;
 	border-color:black;
 	margin:0;
@@ -506,61 +618,74 @@ ol{
 	min-height: 100vh;
 	background-color: blue;
 }
+=======
+		height: auto;
+		min-height: 100vh;	
+		background-color: blue;
+	}
+>>>>>>> 702cae0185920ee2fea562bb534a1016cfab34fb
 
 
-#box1 {
-	float:left;
-	z-index: 3;
-	border-left: 1px solid;
-}
-#box2 {
-	float:left;
-	z-index: 3;
-	border-left: 1px solid;
-}
-#box3 {
-	float:left;
-	z-index: 3;
-	border-left: 1px solid;
-}
-#box4 {
-	float:left;
-	z-index: 3;
-	border-left: 1px solid;
-}
-#box5 {
-	float:left;
-	z-index: 3;
-	border-left: 1px solid;
-}
+	#box1 {
+		float:left;
+		z-index: 3;
+		border-left: 1px solid;
+	}
+	#box2 {
+		float:left;
+		z-index: 3;
+		border-left: 1px solid;
+	}
+	#box3 {
+		float:left;
+		z-index: 3;
+		border-left: 1px solid;
+	}
+	#box4 {
+		float:left;
+		z-index: 3;
+		border-left: 1px solid;
+	}
+	#box5 {
+		float:left;
+		z-index: 3;
+		border-left: 1px solid;
+	}
 
-.box {
-	box-sizing: border-box;
-	border-top: 1px solid;
-	width: 33.333333333%;
-	height: auto;
-	z-index: 2;
-	background-color: #ddddbb;
-}
-/* ANDRE RAD */
-.box1 {
-	box-sizing: border-box;
-	border-top: 1px solid;
-	width: 33.333333333%;
-	height: auto;
-	z-index: 2;
-	background-color: #ddddbb;
-}
-/* TREDJE RAD */
-.box2 {
-	box-sizing: border-box;
-	border-top: 1px solid;
-	width: 33.333333333%;
-	height: auto;
-	z-index: 2;
-	background-color: #ddddbb;
-}
+	.box {
+		box-sizing: border-box;
+		border-top: 1px solid;
+		width: 33.333333333%;
+		height: auto;
+		z-index: 2;
+		background-color: #ddddbb;
+	}
+	/* ANDRE RAD */
+	.box1 {
+		box-sizing: border-box;
+		border-top: 1px solid;
+		width: 33.333333333%;
+		height: auto;
+		z-index: 2;
+		background-color: #ddddbb;
+	}
+	/* TREDJE RAD */
+	.box2 {
+		box-sizing: border-box;
+		border-top: 1px solid;
+		width: 33.333333333%;
+		height: auto;
+		z-index: 2;
+		background-color: #ddddbb;
+	}
 
+<<<<<<< HEAD
 #box5.box2{
 	margin-bottom: 50px;
 }
+=======
+	#box5.box2{
+		margin-bottom: 50px;
+	}
+}
+>>>>>>> 702cae0185920ee2fea562bb534a1016cfab34fb

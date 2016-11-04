@@ -14,3 +14,27 @@ window.onscroll = function(){
 }
 
 
+
+let meny = document.getElementById('meny2');
+let meny2dropdown = document.getElementById('meny2dropdown');
+let dropdownting = document.getElementsByClassName('dropdownting');
+
+/* Mouseover functions */
+
+meny.addEventListener('mouseover' , function (event) {
+    meny2dropdown.style.opacity = 1;
+    meny2dropdown.style.display = "initial";
+    
+})
+
+/* Mouseout functions*/
+
+meny2dropdown.addEventListener('mouseout' , function (event) {
+    meny2dropdown.style.display = "none";
+    
+})
+
+meny.addEventListener('mouseout' , function (event) {
+    meny2dropdown.style.display = "none";
+    
+})
