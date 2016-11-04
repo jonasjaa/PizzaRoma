@@ -12,19 +12,29 @@ function scrollStopMeny(){
 window.onscroll = function(){
 	scrollStopMeny();
 }
-<<<<<<< HEAD
-=======
+
+
 
 let meny = document.getElementById('meny2');
-let menydropdown = document.getElementById('meny2dropdown');
+let meny2dropdown = document.getElementById('meny2dropdown');
+let dropdownting = document.getElementsByClassName('dropdownting');
+
+/* Mouseover functions */
 
 meny.addEventListener('mouseover' , function (event) {
-	menydropdown.style.transition = 'opacity 0.5s';
-	menydropdown.style.opacity = 1;
-	menydropdown.style.display = "initial";
+    meny2dropdown.style.opacity = 1;
+    meny2dropdown.style.display = "initial";
+    
 })
 
-menydropdown.addEventListener('mouseout' , function (event) {
-	menydropdown.style.opacity = 0;
+/* Mouseout functions*/
+
+meny2dropdown.addEventListener('mouseout' , function (event) {
+    meny2dropdown.style.display = "none";
+    
 })
->>>>>>> df9dd0131a409378e15566ba93a976addd5c51a9
+
+meny.addEventListener('mouseout' , function (event) {
+    meny2dropdown.style.display = "none";
+    
+})
