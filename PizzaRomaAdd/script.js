@@ -13,4 +13,15 @@ window.onscroll = function(){
 	scrollStopMeny();
 }
 
+let meny = document.getElementById('meny2');
+let menydropdown = document.getElementById('meny2dropdown');
 
+meny.addEventListener('mouseover' , function (event) {
+	menydropdown.style.transition = 'opacity 0.5s';
+	menydropdown.style.opacity = 1;
+	menydropdown.style.display = "initial";
+})
+
+menydropdown.addEventListener('mouseout' , function (event) {
+	menydropdown.style.opacity = 0;
+})
