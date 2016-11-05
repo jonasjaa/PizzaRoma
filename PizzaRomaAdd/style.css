@@ -433,7 +433,7 @@ ol{
 
     #omossDIV{
         position: absolute;
-        top:36%;
+        top:43%;
         left:24%;
         transform: translate(-50%);
         border: 1px solid;
@@ -508,7 +508,7 @@ ol{
         position: absolute;
         transform: translate(-50%);
         left:74%;
-        top:36%;
+        top:43%;
         height: 280px;
         border-radius: 10px;
         width:50%;
@@ -554,7 +554,7 @@ ol{
 
     #omossDIV{
         position: absolute;
-        top:38%;
+        top:47%;
         left:50%;
         transform: translate(-50%);
         border: 1px solid;
@@ -628,11 +628,15 @@ ol{
         position: absolute;
         transform: translate(-50%);
         left:50%;
-        top:65%;
+        top:85%;
         height: 280px;
         border-radius: 10px;
         width:80%;
         border: 1px solid;
+    }
+
+    #footer{
+    	display: none;
     }
 }
 
@@ -860,7 +864,7 @@ ol{
     
      #omossDIV{
         position: absolute;
-        top:24%;
+        top:35%;
         left:50%;
         transform: translate(-50%);
         border: 1px solid;
@@ -876,7 +880,7 @@ ol{
         position: absolute;
         transform: translate(-50%);
         left:50%;
-        top:51%;
+        top:72%;
         height: 280px;
         border-radius: 10px;
         width:80%;
