@@ -1,12 +1,11 @@
 /*
 FILE NAME: style.css
-WRITTEN BY: Erik Stensrud Larsen
+WRITTEN BY: Erik Stensrud Larsen, Sondre Strande Dahl, Per Erik Korssjøen, Piruthusan Arulnesan, Jonas Jevnaker Aas
 WHEN: November 2016
 PURPOSE: The styling document, which contains styling to the whole website. 
 */
-#menytxt:hover{
-	color:white;
-}
+/*=============================================================================================*/
+/*CASCADING STYLE SHEET*/
 body{
 	position: relative;
 	left:0;
@@ -23,9 +22,10 @@ body{
 	top:55px;
 	width:100%;
 	height: auto;
-	min-height: 100vh;
+	min-height: calc(100vh - 50px);
 	background-color: white;
 }
+
 #footer{
 	position: absolute;
 		bottom: 0;
@@ -81,10 +81,9 @@ body{
 	border-color:black;
 	margin:0;
 	background-color: #d6334e;
-	
 }
 
-#meny1:hover p {
+#meny1:hover p{
     color: #FFF;
 }
 
@@ -98,7 +97,6 @@ body{
 	border-color:black;
 	margin:0;
 	color:black;
-    
 }
 
 #meny2:hover{
@@ -143,6 +141,7 @@ body{
     text-decoration: none;
     display: block;
 }
+
 .dropdownting{
 	text-align: center;
 	font-family:  "Arial Black", Gadget, sans-serif;
@@ -171,16 +170,7 @@ body{
 }
 
 #meny3:hover{
-	position: absolute;
-    top:0;
-    left:40%;
-	width:20%;
-	height:100%;
-	border-right:solid 1px;
-	border-color:black;
-	margin:0;
 	background-color: #d6334e;
-	color:white;
 }
 
 #meny3:hover p {
@@ -188,28 +178,19 @@ body{
 }
 
 #meny4{
-position: absolute;
-top:0;
-left:60%;
-width:20%;
-height:100%;
-border-right:solid 1px;
-border-color:black;
-margin:0;
-color:black;
+	position: absolute;
+	top:0;
+	left:60%;
+	width:20%;
+	height:100%;
+	border-right:solid 1px;
+	border-color:black;
+	margin:0;
+	color:black;
 }
 
 #meny4:hover{
-position: absolute;
-    top:0;
-    left:60%;
-width:20%;
-height:100%;
-border-right:solid 1px;
-border-color:black;
-margin:0;
-background-color: #d6334e;
-color:white;
+	background-color: #d6334e;
 }
 
 #meny4:hover p {
@@ -217,27 +198,20 @@ color:white;
 }
 
 #meny5{
-position: absolute;
-    top:0;
-    left:80%;
-width:20%;
-height:100%;
-border-color:black;
-margin:0;
-color:black;
-}
-
-#meny5:hover{
 	position: absolute;
-		top:0;
-		left:80%;
+	    top:0;
+	    left:80%;
 	width:20%;
 	height:100%;
 	border-color:black;
 	margin:0;
-	background-color: #d6334e;
-	color:white;
+	color:black;
 }
+
+#meny5:hover{
+	background-color: #d6334e;
+}
+
 #meny5:hover p {
     color: #FFF;
 }
@@ -276,10 +250,10 @@ h3{
 #allergendiv{
 	margin-top:100px;
 	float:left;
-	width:32.84vw;
+	width: calc(33.3333333333333% - 1px);
+	border-right: 1px solid;
 	min-height: 100vh;
 	background-color: #327a0c;
-	border-right: 1px solid black;
 }
 
 #allergentextdiv{
@@ -316,6 +290,7 @@ ol{
     
     background-color: #ddddbb;
 }
+
 #boks1 {
     position: absolute;
     width: 72%;
@@ -324,39 +299,35 @@ ol{
     left: 50%;
     top: 5%;
 }
+
 #kontakttelefon{
-        position: absolute;
-        width: 32%;
-        height: 160px;
-        left:0;
-        padding:15px;
-        border: 1px solid;
-        border-radius: 5px;
-        font-family: Trebuchet MS, sans-serif;
-        font-size: 17px;
-        display: inline-block;
-        text-align: center;
-        box-shadow: 10px 10px 5px #888888;
-    }
+    position: absolute;
+    width: 32%;
+    height: 160px;
+    left:0;
+    padding:15px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 10px 10px 5px #888888;
+}
 
 #kontaktadresse{
-        position: absolute;
-        width: 32%;
-        height: 160px;
-        right:0;
-        padding:15px;
-        border: 1px solid;
-        border-radius: 5px;
-        font-family: Trebuchet MS, sans-serif;
-        font-size: 20px;;
-        display: inline-block;
-        text-align: center;
-        box-shadow: 10px 10px 5px #888888;
-    }
-
-#delelinje {
-    margin-top: calc(5% + 200px);
-    margin-bottom: 15px
+    position: absolute;
+    width: 32%;
+    height: 160px;
+    right:0;
+    padding:15px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 #facebook {
@@ -370,6 +341,7 @@ ol{
 #facebookpic:hover {
     opacity: 0.8;
 }
+
 #facebookpic {
     width:140px;
     height: 50px;
@@ -377,6 +349,7 @@ ol{
     margin-left: 25px;
     opacity: 1;
 }
+
 #likeshare {
     position: absolute;
     top: 5px;
@@ -392,58 +365,11 @@ ol{
     height: 100 px;
 }
 
-#kontaktadresse{
-        position: absolute;
-        width: 32%;
-        height: 160px;
-        right:0;
-        padding:15px;
-        border: 1px solid;
-        border-radius: 5px;
-        font-family: Trebuchet MS, sans-serif;
-        font-size: 20px;;
-        display: inline-block;
-        text-align: center;
-        box-shadow: 10px 10px 5px #888888;
-    }
-
 #delelinje {
     margin-top: calc(5% + 200px);
     margin-bottom: 15px
 }
 
-#facebook {
-    
-    width:400px ;
-    height: 50px;
-    transform: translate(-50%);
-    margin-left: 50%;
-}
-
-#facebookpic:hover {
-    opacity: 0.8;
-}
-#facebookpic {
-    width:140px;
-    height: 50px;
-    border-radius: 5px;
-    margin-left: 25px;
-    opacity: 1;
-}
-#likeshare {
-    position: absolute;
-    top: 5px;
-    left: 185px;
-}
-
-#justeatbilde {
-    position: absolute;
-    top: 340px;
-    transform: translate(-50%);
-    left: 50%;
-    width: 250px;
-    height: 100 px;
-}
 #justeatbilde:hover {
     opacity: 0.8;
 }
@@ -461,18 +387,23 @@ ol{
 	margin: 10%;
 }
 
+/*=============================================================================================*/
+/*======================================RESPONSIVE DESIGN======================================*/
 
-/*==================STOR========================================================================*/
+/*=============================================================================================*/
+/*Responsive design with width over 650px*/
+
 
 @media screen and (min-width: 650px) {
+	
 	#headerimg{
-	position: absolute;
-	top:7px;
-	left:50%;
-	transform: translate(-50%);
-	margin:0;
-	height:85%;
-	width:35%;
+		position: absolute;
+		top:7px;
+		left:50%;
+		transform: translate(-50%);
+		margin:0;
+		height:85%;
+		width:35%;
 	}
 
 
@@ -565,10 +496,10 @@ ol{
 	}
     
     #omoss{
-	margin-top: 8%;
-	width: 100%;
-	text-align: center;
-	position: absolute;
+		margin-top: 8%;
+		width: 100%;
+		text-align: center;
+		position: absolute;
     }
 
     #generellInfo{
@@ -681,15 +612,16 @@ ol{
 
 }
 
-/* ENDRINGER I OM OSS, RESPONSIVE DIVS DER */
+/*=============================================================================================*/
+/*Responsive design with width under 1255px*/
 
 @media screen and (max-width: 1255px) {
         
     #omoss{
-	margin-top: 8%;
-	width: 100%;
-	text-align: center;
-	position: absolute;
+		margin-top: 8%;
+		width: 100%;
+		text-align: center;
+		position: absolute;
     }
 
     #generellInfo{
@@ -801,159 +733,104 @@ ol{
 
 }
 
-/*=========================================================================================LITEN=*/
+/*=============================================================================================*/
+/*Responsive design with width under 870px*/
+
+@media screen and (max-width: 870px) {
+	#allergendiv{
+		width:calc(33.333333% - 1px);
+	}
+
+	#allergentextdiv{
+		left:50%;
+	}
+
+	ol{
+	font-size: 22px;
+}
+
+/*=============================================================================================*/
+/*Responsive design with width under 650px*/
 
 @media screen and (max-width: 650px) {
 	#headerimg{
-	position: absolute;
-	top:7px;
-	left:27.5%;
-	margin:0;
-	height:85%;
-	width:45%;
+		position: absolute;
+		top:7px;
+		left:27.5%;
+		margin:0;
+		height:85%;
+		width:45%;
 	}
 
 	#meny {
-		position:absolute; ;
-		left:0;
-		width:100%;
 		height:200px;
-		background-color: #d9d9d9;
-		margin: 0;
-		border-top: solid 1px;
-		border-bottom: solid 1px;
-		z-index:100;
 	}
 
 	#meny1 {
-		position: absolute;
-			top:0;
-			left:0;
 		width:100%;
 		height:40px;
-		border-right:solid 1px;
-		border-color:black;
-		margin:0;
-		color:black;
 	}
 
 	#meny1:hover{
-		position: absolute;
-			top:0;
-			left:0;
 		width:100%;
 		height:40px;
-		border-right:solid 1px;
-		border-color:black;
-		margin:0;
 		background-color: #d6334e;
-		color:white;
 	}
 
 	#meny2{
-		position: absolute;
-			top:40px;
-			left:0;
+		top:40px;
+		left:0;
 		width:100%;
 		height:40px;
-		border-right:solid 1px;
-		border-color:black;
-		margin:0;
-		color:black;
 	}
 
 	#meny2:hover{
-		position: absolute;
-			top:40px;
-			left:0;
+		top:40px;
+		left:0;
 		width:100%;
 		height:40px;
-		border-right:solid 1px;
-		border-color:black;
-		margin:0;
 		background-color: #d6334e;
-		color:white;
 	}
     
     #meny2dropdown{
-	width:auto;
-    min-width: 55%;
-    max-width: 90%;
-    transform: translate(-50%);
-    left: 50%;
+		width:auto;
+	    min-width: 55%;
+	    max-width: 90%;
+	    transform: translate(-50%);
+	    left: 50%;
     }
 
 	#meny3{
-		position: absolute;
-			top:80px;
-			left:0;
-			width:100%;
+		top:80px;
+		left:0;
+		width:100%;
 		height:40px;
-		border-right:solid 1px;
-		border-color:black;
-		margin:0;
-		color:black;
 	}
 
 	#meny3:hover{
-		position: absolute;
-			top:80px;
-			left:0;
-			width:100%;
-		height:40px;
-		border-right:solid 1px;
-		border-color:black;
-		margin:0;
 		background-color: #d6334e;
-		color:white;
 	}
 
 	#meny4{
-		position: absolute;
-			top:120px;
-			left:0;
-			width:100%;
+		top:120px;
+		left:0;
+		width:100%;
 		height:40px;
-		border-right:solid 1px;
-		border-color:black;
-		margin:0;
-		color:black;
 	}
 
 	#meny4:hover{
-		position: absolute;
-			top:120px;
-			left:0;
-			width:100%;
-		height:40px;
-		border-right:solid 1px;
-		border-color:black;
-		margin:0;
 		background-color: #d6334e;
-		color:white;
 	}
 
 	#meny5{
-		position: absolute;
-			top:160px;
-			left:0;
-			width:100%;
+		top:160px;
+		left:0;
+		width:100%;
 		height:40px;
-		border-color:black;
-		margin:0;
-		color:black;
 	}
 
 	#meny5:hover{
-		position: absolute;
-			top:160px;
-			left:0;
-			width:100%;
-		height:40px;
-		border-color:black;
-		margin:0;
 		background-color: #d6334e;
-		color:white;
 	}
 
 	#wrapper{
@@ -961,9 +838,7 @@ ol{
 		left:0;
 		top:300px;
 		width:100%;
-		height: auto;
-		min-height: 100vh;
-		color:black;	
+		min-height: calc(100vh - 50px);
 	}
 
 	#box1 {
@@ -1051,7 +926,38 @@ ol{
 	#box5.box2{
 		margin-bottom: 50px;
 	}
-    
+
+	#allergendiv{
+		margin-top:0px;
+		width:100%;
+		min-height:auto;	
+		background-color: #327a0c;
+		border-right: 1px solid black;
+	}
+
+	#allergentextdiv{
+		position: relative;
+		margin-left: 23%;
+		top:0;
+		width:auto;
+		margin-bottom: 50px;
+		margin-top:-20px;
+	}
+
+	#allergenbilde{
+		width:10%;
+		height:10%;
+		margin-right: 4px;
+	}
+
+	ol{
+		font-family: Trebuchet MS, sans-serif;
+		font-size: 30px;
+		color:white;
+		line-height: 2.5em;
+	}
+}
+	  
      #omossDIV{
         position: absolute;
         top:35%;
@@ -1091,6 +997,3 @@ ol{
         
         background-color: #ddddbb;
     }
-}
-
-/*======================================================================================*/
