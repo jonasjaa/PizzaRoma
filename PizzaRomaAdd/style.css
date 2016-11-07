@@ -391,7 +391,9 @@ ol{
     width: 250px;
     height: 100 px;
 }
-
+#justeatbilde:hover {
+    opacity: 0.8;
+}
 /*==================STOR========================================================================*/
 
 @media screen and (min-width: 650px) {
