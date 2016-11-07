@@ -375,16 +375,16 @@ ol{
 }
 
 #container {
-	width: 40%;
-	margin: auto;
-	position: relative;
+	position: absolute;
+	left: 20%;
+	width: calc(60% + 1px);
+	margin-top: 103px;
+	height:97%;
 }
 
 #img {
-	height: 450px;
-	width: 650;
-	position: absolute;
-	margin: 10%;
+	height: 80%;
+	width: 100%;
 }
 
 /*=============================================================================================*/
