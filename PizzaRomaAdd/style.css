@@ -395,6 +395,7 @@ ol{
 }
 >>>>>>> erik
 
+<<<<<<< HEAD
 #kontaktadresse{
         position: absolute;
         width: 32%;
@@ -450,6 +451,23 @@ ol{
 #justeatbilde:hover {
     opacity: 0.8;
 }
+=======
+#container {
+	width: 40%;
+	margin: auto;
+	position: relative;
+}
+
+#img {
+	height: 450px;
+	width: 650;
+	position: absolute;
+	margin: 10%;
+}
+
+
+
+>>>>>>> Sondre
 /*==================STOR========================================================================*/
 
 @media screen and (min-width: 650px) {
