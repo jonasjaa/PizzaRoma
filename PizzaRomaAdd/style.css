@@ -338,8 +338,6 @@ ol{
         text-align: center;
         box-shadow: 10px 10px 5px #888888;
     }
-<<<<<<< HEAD
-=======
 
 #kontaktadresse{
         position: absolute;
@@ -393,9 +391,7 @@ ol{
     width: 250px;
     height: 100 px;
 }
->>>>>>> erik
 
-<<<<<<< HEAD
 #kontaktadresse{
         position: absolute;
         width: 32%;
@@ -451,7 +447,7 @@ ol{
 #justeatbilde:hover {
     opacity: 0.8;
 }
-=======
+
 #container {
 	width: 40%;
 	margin: auto;
@@ -466,8 +462,6 @@ ol{
 }
 
 
-
->>>>>>> Sondre
 /*==================STOR========================================================================*/
 
 @media screen and (min-width: 650px) {
