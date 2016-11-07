@@ -283,12 +283,11 @@ ol{
     margin-top: 130px;
     left: 50%;
     transform: translate(-50%);
-    height: 500px;
+    height: auto;
     padding: 20px;
     width: 60%;
     border: 1px solid;
     border-radius: 10px;
-    
     background-color: #ddddbb;
 }
 
@@ -332,7 +331,6 @@ ol{
 }
 
 #facebook {
-    
     width:400px ;
     height: 50px;
     transform: translate(-50%);
@@ -357,13 +355,19 @@ ol{
     left: 185px;
 }
 
-#justeatbilde {
-    position: absolute;
-    top: 340px;
+#justeatdiv{
+	width:400px ;
+    height: 50px;
     transform: translate(-50%);
-    left: 50%;
-    width: 250px;
-    height: 100 px;
+    margin-left: 50%;
+}
+
+#justeatbilde {
+    width:200px ;
+    height: 100px;
+    margin-top:-20px;
+    transform: translate(-50%);
+    margin-left: 50%;
 }
 
 #delelinje {
