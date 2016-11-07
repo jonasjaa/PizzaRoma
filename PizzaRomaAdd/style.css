@@ -297,6 +297,94 @@ ol{
 	line-height: 2.5em;
 }
 
+#kontaktossdiv {
+    position: absolute;
+    margin-top: 130px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 500px;
+    padding: 20px;
+    width: 60%;
+    border: 1px solid;
+    border-radius: 10px;
+    
+    background-color: #ddddbb;
+}
+#boks1 {
+    position: absolute;
+    width: 72%;
+    height: 200px;
+    transform: translate(-50%);
+    left: 50%;
+    top: 5%;
+}
+#kontakttelefon{
+        position: absolute;
+        width: 32%;
+        height: 160px;
+        left:0;
+        padding:15px;
+        border: 1px solid;
+        border-radius: 5px;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 17px;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 10px 10px 5px #888888;
+    }
+
+#kontaktadresse{
+        position: absolute;
+        width: 32%;
+        height: 160px;
+        right:0;
+        padding:15px;
+        border: 1px solid;
+        border-radius: 5px;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 20px;;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 10px 10px 5px #888888;
+    }
+
+#delelinje {
+    margin-top: calc(5% + 200px);
+    margin-bottom: 15px
+}
+
+#facebook {
+    
+    width:400px ;
+    height: 50px;
+    transform: translate(-50%);
+    margin-left: 50%;
+}
+
+#facebookpic:hover {
+    opacity: 0.8;
+}
+#facebookpic {
+    width:140px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 25px;
+    opacity: 1;
+}
+#likeshare {
+    position: absolute;
+    top: 5px;
+    left: 185px;
+}
+
+#justeatbilde {
+    position: absolute;
+    top: 340px;
+    transform: translate(-50%);
+    left: 50%;
+    width: 250px;
+    height: 100 px;
+}
 
 /*==================STOR========================================================================*/
 
@@ -635,9 +723,6 @@ ol{
         border: 1px solid;
     }
 
-    #footer{
-    	display: none;
-    }
 }
 
 /*=========================================================================================LITEN=*/
