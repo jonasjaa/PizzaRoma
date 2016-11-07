@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<title>P2 Design</title>
+	<link rel="stylesheet" type="text/css" href="css\style.css"></link>
+	<link rel="icon" type="image/png" href="img\favicon.png"></link>
+	</head>
+	<body>
+		<header>
+		<p>29.09.2016 | Gruppemedlemmer: Erik Stensrud Larsen, Sondre Strande Dahl, Per Erik Korssjøen, Piruthusan Arulnesan, Jonas Jevnaker Aas</p>
+		</header>
+		<article>
+			<h2>Dokumentdetaljer:</h2>
+			<hr>
+			<p id="big">
+			P2 Project Design<br>
+			Erik Stensrud Larsen, Sondre Strande Dahl, Per Erik Korssjøen, Piruthusan Arulnesan, Jonas Jevnaker Aas<br>
+			29.september 2016
+			</p>
+			<h2>Administrative detaljer:</h2>
+			<hr>
+			<p id="big">
+			Klient navn: Pizza Roma<br>
+			Nettside navn: Pizza Roma<br>
+			Kontaktperson: Daglig leder Pizza Roma
+			</p>
+			<h2>Hensikt og målgruppe:</h2>
+			<hr>
+			<p>
+			Nettsidens mening er å synliggjøre PizzaRoma og bedriftens tilbud for Trondheims innbyggere. Slik situasjonen er i dag er PizzaRoma en mindre restaurant på Ila med et bredt utvalg som kan nytes i restauranten, som take-away eller levert på døren. Dette er et tilbud som mange flere rundt om i Trondheim kunne hatt glede av ved hjelp av lettere tilgjengelig informasjon. Vi ønsker å skape en god oversikt over hva slags mat PizzaRoma kan levere, hvor restauranten er lokalisert og hvordan man enklest mulig kan komme i kontakt med bedriften for å bestille mat. Vi ønsker ved hjelp av dette å kunne skape et større marked for PizzaRoma, slik at de kan nå ut til pizzaelskere fra hele Trondheim.
+			</p>
+			<h2>Navigasjons-struktur:</h2>
+			<hr>
+			<p>
+			Vi har valgt et oppsett der vi har en navigasjonsmeny som er fiksert øverst på alle sidene. Dette gjør at man alltid kan navigere til de andre undersidene og enkelt finne den informasjonen man leter etter. Dette er viktig for en side som få kunder til å bestille og kjøpe produkter fra klienten. 
+			Undermenyene unger «Meny» vil ikke være synlig hele tiden, men vil være en rollover meny som vises når han fører musepekeren over den. Dette gir en ryddig side og meny. Det er viktig at siden er brukervennlig og at all informasjon er tilgjengelig i og med at dette er elementer som avgjør om kunden velger å kjøpe produkter fra vår klient, eller veler en konkurrent.
+			Fra de enkelte undermenyene vil vi linke til de aktuelle allergenene som finnes i rettene. 
+			<center><img src="img\content\Struktur.png" /></center>
+			</p>
+			<h2>Layout:</h2>
+			<hr>
+			<p>
+			Vi har fokusert på å ha en enkel og oversiktlig nettside. Navigasjonsmenyen skal være lettlest og fokuset ligger på at det skal være enkelt å navigere seg rundt på nettsiden. Menyen skal ha en sølvbakgrunn og svart tekst, men når man holder over hver enkelt meny, skal bakgrunnen endre farge til litt svakere rød enn selve headeren og footeren. Under bildet er det en mer detaljert oversikt over skrifttyper, farger, størrelser osv. 
+			</p>
+			<center><img src="img\content\hjem.png" /></center>
+			<ul type="circle">
+				<li><b>Skrifttype:</b> Berlin Sans FB Demi på overskrift (26-30px), og på menyen (24-26px), og på allergenoversikten, hvor det er litt mer tekst; Book Antiqua. (14-18px). Det skal også være Book Antiqua-tekst i footeren (14-16px)
+				</li>
+				<li><b>Farger:</b></li>
+					<ul type="bullet">
+						<li><b>Tekst:</b> overskrift(hvit), meny(svart), meny:hover(hvit), innhold(svart), allergenoversikt(hvit), footer(hvit)</li>
+						<li><b>Header:</b> RGB (194, 32, 59)</li>
+						<li><b>Meny:</b> RGB (246, 246, 246), meny:hover: RGB (214, 51, 78), litt svakere rød enn headeren.</li>
+						<li><b>Innhold:</b> Bakgrunn: RGB (246, 246, 246), og fargen på innholdet til de forskjellige sidene vil variere.</li>
+						<li><b>Footer:</b> RGB (194, 32, 59)</li>
+					</ul>
+				<li><b>Body-bredde:</b> 100% av browser-vinduet.</li>
+				<li><b>Linker:</b> Overskriften (Pizza Roma) og logoen skal ha en link til hjem-siden. Alle menyene skal linke til de forskjellige html-filene, mens der det står meny, skal det komme en dropdown meny laget i JavaScript, hvor det kommer undermenyer med de forskjellige rettene Pizza Roma kan tilby.</li>
+				<li><b>Navigasjonsmeny:</b> Navigasjonsmenyen skal ligge under selve overskriften, men når det blas ned på siden skal menyen henge igjen, ved at den har position:fixed. Logoen, som nevnt over er en link til hjem-siden, skal bli med menyen, ved at den får en plass ved siden av hjem-siden. </li>
+				<li><b>Banner:</b> Banneret vil være «Pizza Roma», og logoen til venstre.</li>
+				<li><b>Footeren:</b> Her skal vi ha litt informasjon om Pizza Roma; Adresse, telefon, email og facebook-link. </li>
+				<li><b>Bakgrunnsbilder:</b></li>
+					<ul type="circle">
+						<li>Dette blir forskjellige bilder av matretter. Dette er på menyene.</li>
+						<li>På hjemsiden skal det være en slide med tilbud osv.</li>
+					</ul>
+				<li><b>Logo:</b> Logoen skal være i headeren, til venstre for overskriten (Pizza Roma). Det er bilde av en kokk på en scooter. </li>
+
+			<h2>Innhold:</h2>
+			<hr>
+				<ul type="circle">
+
+					<li>
+					<h3>Hjem: [hjem.html]</h3>
+					Hjem-siden er det første man ser når man besøker nettsiden. Hjem siden vil inneholde litt generell informasjon, som man vil kunne fordype seg i på de andre sidene på nettstedet. Størsteparten av hjem-siden kommer til å være dekket av et bilde-slideshow. Bildene her kommer til å være ulike matretter, mest sannsynlig tilbud eller andre fristelser de kan by på. Hjem-siden den første siden, og derfor kommer flest folk til å se denne. Derfor prøver vi å få hjem-siden til å reklamere best mulig for Pizza Roma. Målet til selve hjemmesiden er å friste med nydelige matretter, samtidig som vi informerer om Pizza Roma som spisested. 
+					Dette målet føler vi at vi oppnår aller best hvis vi direkte viser til rettene, ved flotte bilder. Når man er ute etter et sted å bestille/spise mat, er det først og fremst hvordan maten ser ut eller smaker som er det viktige. Man bryr seg i første omgang ikke like mye om hvor bra dokumentert hver enkelt rett er. Med mindre man da for eksempel er allergiker (da vil man kunne navigere seg videre for å få en god oversikt).
+					Selve navigasjonsmenyen har man øverst på siden, under banneret (med Pizza Roma logoen). Brukerens oppmerksomhet vil forhåpentligvis rettes mot bilde-slideshowet som skal være under navigasjonsmenyen. Den vil være rimelig stor og kommer til å dekke opp imot halvparten av siden. På hver side av dette slideshowet vil det være to mindre «oversikter» (vi tenker på bildeslides her også av mer spesifikke ting) som skal gi brukeren en kjapp «smakebit» på ting som er i menyen. Vi skal da bruke Javascript til bildeslidene. 
+					<center><img src="img\content\hjem.png" /></center> 
+					</li>
+					
+					<li>
+					<h3>Meny</h3>
+					Vi har ingen egen menyside med en bestemt meny, men vi har isteden delt opp de ulike delene fra menyen i egne sider, etter deres kategori. Derfor har vi egne sider som er som følger:
+					<center><img src="img\content\Meny [Dropdown].png" /></center>
+					</li>
+
+						<ul type="circle">
+							<li>
+							<h3>Pizzameny: [pizzameny.html]</h3>
+							På menysidene vil vi ha en godt strukturert oversikt over hvilke retter som hører til under denne kategorien (i dette tilfellet, pizzamenyen). Her vil man da se bilder og tilhørende navn til alle pizzaene Pizza Roma kan tilby. Vi har da omtrent 5 forskjellige elementer horisontalt. Høyden på oversikten med elementene i vil da variere etter hvor mange elementer det er i hver kategori. Bredden på et element kommer til å være omtrent 15% av browser width. Ettersom vi har tenkt til å gjøre nettstedet responsivt, så vil dette bli annerledes på mobil. Der tenker vi kanskje å ha et til to bilder i bredden med en høyde som matcher dette. Hvis 5 elementer har 15% width vil vi da være oppe i 75%. Resten vil da gå til margin i mellom elementene og eventuelt en «ramme» på siden dersom dette føles nødvendig. Vi vil også ha en margin vertikalt (mellom elementene) rimelig identisk med den vi har horisontalt for å skape et 
+							<center><img src="img\content\Meny [Pizza].png"/></center>
+							</li>
+
+							<li>
+							<h3>Burgermeny: [burgermeny.html]</h3>
+							Siden her vil være identisk med siden ovenfor, bare at innholdet i elementene vil være forskjellige. Sidene kan da variere fra hverandre i antall elementer, men ellers vil siden ha likt oppsett.
+							<center><img src="img\content\Meny [Burger].png"/></center>
+							</li>
+
+							<li>
+							<h3>Diversemeny: [diversemeny.html]</h3>
+							Siden her vil være identisk med siden ovenfor, bare at innholdet i elementene vil være forskjellige. Sidene kan da variere fra hverandre i antall elementer, men ellers vil siden ha likt oppsett.
+							<center><img src="img\content\Meny [Diverse].png"/></center>
+							</li>
+
+							<li>
+							<h3>Grillmeny: [grillmeny.html]</h3>
+							Siden her vil være identisk med siden ovenfor, bare at innholdet i elementene vil være forskjellige. Sidene kan da variere fra hverandre i antall elementer, men ellers vil siden ha likt oppsett.
+							<center><img src="img\content\Meny [Grill].png"/></center>
+							</li>
+
+							<li>
+							<h3>Kebabmeny: [kebabmeny.html]</h3>
+							Siden her vil være identisk med siden ovenfor, bare at innholdet i elementene vil være forskjellige. Sidene kan da variere fra hverandre i antall elementer, men ellers vil siden ha likt oppsett.
+							<center><img src="img\content\Meny [Kebab].png"/></center>
+							</li>
+						</ul>
+
+					<li>
+					<h3>Allergenoversikt: [allergenoversikt.html]</h3>
+					Her vil vi holde oss til en solid allergenoversikt i tekstformat. En allergenoversikt mener vi skal være godt strukturert og lett å finne fram i. Etter å ha sett igjennom allergenoversikten skal du ikke være i tvil om hvilke retter du kan spise.
+					Allergenoversikten er også en del av det å tiltrekke og beholde kunder. Majoriteten av kundene vil ikke være allergikere, men de som er det skal ikke måtte dra fra Pizza Roma på grunn av usikkerhet ovenfor ingredienser (hovedsakelig typiske allergener). Sjansen er stor for å miste en kunde dersom opplevelsen av maten var en dårlig en. Det gjelder andre veien også, og derfor skal vi gjøre vår del for at opplevelsen ikke skal bli en negativ en. Vi mener derfor at det er essensielt å ha med en allergenoversikt på siden.
+					Vi satser på et design her som er bygd opp med 3 spalter, der vi fordeler de forskjellige allergenene. Bredden på hver spalte vil da være på noe rundt 20% i bredde, og høyden på hver spalte må da være på en måte auto, slik at alt av tekst kommer med i bredden, med tanke på at vi har begrenset med bredde. 
+					<center><img src="img\content\Allergener.png"/></center>	
+					</li>
+
+					<li>
+					<h3>Kontakt oss: [kontaktoss.html]</h3>
+					Enkelt sagt vil man her kunne finne den informasjonen man trenger for å komme i kontakt med Pizza Roma. Ettersom vi ikke har tenkt til å implementere en funksjon for bestilling, så vil det være veldig viktig å gjøre det lett for besøkende å kontakte Pizza Roma. Målet med nettsiden er overordnet å gjøre Pizza Roma større, og i alt skaffe flere kunder. Gjør vi det lett å kontakte de, samtidig som de lar seg friste av bildene på menyene, er sannsynligheten stor for at flere tar til handling og bestiller mat! Igjen må vi prøve å gjøre det så lett som overhode mulig for folk å vite om plasseringen og kontaktinformasjonen.
+					Til venstre på kontakt-oss siden vil vi ha en «Kontakt Pizza Roma Email Form» der man kan kontakte Pizza Roma via email direkte her fra hjemmesiden. Og til høyre på siden vil vi ha mer tradisjonell kontaktinformasjon. Slik som telefonnummer der du kan bestille maten deres. Vi har valgt å la om-oss siden ha mer rett og slett «om» Pizza Roma, og derfor la kontakt-oss siden så godt som bare inneholde måter å kontakte Pizza Roma på.
+					<center><img src="img\content\Kontakt oss.png"/></center>
+					</li>
+
+					<li>
+					<h3>Om oss: [omoss.html]</h3>
+					I prinsippet vil om oss og kontakt oss være noe like sider. Men informasjonen som vil være tilgjengelig på de to respektive sidene vil være forskjellig. Om oss handler her mer om bakgrunnen til Pizza Roma og da rett og slett hvem det er som står bak maten du får servert.
+					Målet med denne siden er å opplyse de litt mer interesserte besøkende av nettsiden. På siden vil vi også ha google maps med plasseringen til Pizza Roma (til høyre på siden). På venstresiden vil det være tekst, og eventuelt et bilde, som sier noe både om historien til Pizza Roma og de ansatte. En «om oss» side er med på å bygge opp tillit og kjennskap til de man i dette tilfellet bestiller mat fra. Dette vil ikke være relevant for alle som kjøper mat her ifra. Men for de litt ekstra interesserte, kan dette falle i smak! 
+					<center><img src="img\content\Om oss.png"/></center>
+					</li>
+				</ul>
+			<h2>Krav:</h2>
+			<hr>
+			<p>
+			Dette er slik vi planlegger å oppfylle minste kravene til JavaScript applikasjonene:
+
+			<ol type="1">
+				<li>Roll over menu (ansvar: <b>Erik</b>)
+					En JavaScript funksjon for en roll-over menu som vil være på hver side for å gi enkel tilgang til hver side. Brukeren av siden skal kunne hovere over en gitt tab og meny-en vil rulle ned og vise de forskjellige sidene under tab-en.</li>
+
+				<li>Bilde-slideshow på hjem-siden (ansvar: <b>Sondre</b>)
+					En JavaScript funksjon som viser bilder random i en slideshow. Dette vil være noe av det første brukeren ser på hjem-siden. Dermed er det viktig at bildene som blir brukt appellerer til brukeren, og øker interessen til Pizza Roma.</li>
+
+				<li>Flip-funksjon (ansvar: <b>Per-Erik</b>)
+					En JavaScript funksjon som ”flipper” når du trykker på bildet og viser pris og allergener. Denne vil bli brukt på alle rettene i den digitale menyen, og gjør siden mer interaktiv.</li>
+
+				<li>Logo følger navbar når det scrolles (ansvar: <b>Jonas</b>)
+					En JavaScript funksjon der logoen til Pizza Roma dukker opp der musepekeren hoverer over i navbar. For eksempel hvis brukeren har musepekeren over ”Kebabretter” skal logoen dukke opp i tab-en for ”Kebabretter”.</li>
+				<br>
+			</ol>
+			Vi håper også på innføre en JavaScript funksjon for email-form og en som utnytter API-en til Google Maps for å vise lokasjonen til Pizza Roma på siden. 
+			</ol>
+			</p>
+			<h2>Fremgangsmåte:</h2>
+			<hr>
+			<p>Vi kommer til å følge følgende fremgangsmåte for å lage vår nettside</p>
+			<h3>Organisasjonsstruktur:</h3>
+			<p>Alle filene kommer til å være i en hovedmappe kalt pizzaroma.</p>
+			<p>Liste over filer og mapper:</p>
+			<ul type="disc">
+				<li>hjem.html</li>
+				<li>pizzameny.html</li>
+				<li>burgermeny.html</li>
+				<li>diversemeny.html</li>
+				<li>grillmeny.html</li>
+				<li>kebabmeny.html</li>
+				<li>allergenoversikt.html</li>
+				<li>kontaktoss.html</li>
+				<li>omoss.html</li>
+				<li>img/</li>
+					<ul type="circle">
+						<li>logo.png</li>
+						<li>favicon.png</li>
+						<li>facebooklogo.png</li>
+						<li>justeatlogo.png</li>
+						<li>pizza/</li>
+							<ul type="square">
+								<li>pizza1.png</li>
+								<li>pizza2.png</li>
+								<li>...</li>
+								<li>pizzan.png</li>
+							</ul>
+						<li>burger/</li>
+							<ul type="square">
+								<li>burger1.png</li>
+								<li>burger2.png</li>
+								<li>...</li>
+								<li>burgern.png</li>
+							</ul>
+							<li>diverse/</li>
+							<ul type="square">
+								<li>diverse1.png</li>
+								<li>diverse2.png</li>
+								<li>...</li>
+								<li>diversen.png</li>
+							</ul>
+						<li>grill/</li>
+							<ul type="square">
+								<li>grill1.png</li>
+								<li>grill2.png</li>
+								<li>...</li>
+								<li>grilln.png</li>
+							</ul>
+						<li>kebab/</li>
+							<ul type="square">
+								<li>kebab1.png</li>
+								<li>kebab2.png</li>
+								<li>...</li>
+								<li>kebabn.png</li>
+							</ul>
+						<li>tilbud1.png</li>
+						<li>tilbud2.png</li>
+						<li>tilbud3.png</li>
+						</ul>
+				<li>script/</li>
+					<ul type="circle">
+						<li>roll_over_menu.js</li>
+						<li>flipp_image.js</li>
+						<li>image_slide.js</li>
+						<li>logo.js</li>
+					</ul>
+				<li>css/</li>
+					<ul type="circle">
+						<li>style.css</li>
+					</ul>
+				</ul>
+			<h3>Arbeidsfordeling og frister:</h3>
+			<table>
+				<tr>
+					<th> Filnavn </th>
+					<th> Beskrivelse </th>
+					<th> Ansvarlig </th>
+					<th> Tidsfrist </th>
+				</tr>
+				<tr>
+					<th> forside.html </th>
+					<th> Forste siden du kommer til </th>
+					<th> Sondre </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> pizzameny.html </th>
+					<th> Pizzameny </th>
+					<th> Erik </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> burgermeny.html </th>
+					<th> Hamburgermeny </th>
+					<th> Per Erik </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> kebabmeny.html </th>
+					<th> Kebabmeny </th>
+					<th> Thusan </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> grillmeny.html </th>
+					<th> Grillmeny </th>
+					<th> Jonas </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> diversemeny.html </th>
+					<th> Meny over diverse andre retter </th>
+					<th> Sondre </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> allergenoversikt.html </th>
+					<th> Overikt over allergenen som kan være i rettene </th>
+					<th> Jonas </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> omoss.html </th>
+					<th> Side med informasjon om Pizzaroma + kartlokasjon </th>
+					<th> Per-Erik </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> kontaktoss.html </th>
+					<th> Side med kontaktinformasjon </th>
+					<th> Erik </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> style.css </th>
+					<th> Dokument med stylingen til siden </th>
+					<th> Thusan </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> roll_over_menu.js </th>
+					<th> Javascript for "roll over meny" </th>
+					<th> Erik </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> flipp_image.js </th>
+					<th> Bilder på meny snur seg når valgt </th>
+					<th> Per-Erik </th>
+					<th> 15.10.16 </th>
+				</tr>
+				<tr>
+					<th> image_slide.js </th>
+					<th> Bildeslide på hjemsiden </th>
+					<th> Sondre </th>
+					<th> 06.11.16 </th>
+				</tr>
+				<tr>
+					<th> logo.js </th>
+					<th> Logo følger navbar når det scrolles </th>
+					<th> Jonas </th>
+					<th> 06.11.16 </th>
+				</tr>
+			</table>
+		</article>
+	</body>
+</html>

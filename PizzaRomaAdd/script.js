@@ -1,3 +1,10 @@
+/*
+FILE NAME: script.js
+WRITTEN BY: Erik Stensrud Larsen, Sondre Strande Dahl, Per Erik Korssjøen, Piruthusan Arulnesan, Jonas Jevnaker Aas
+WHEN: November 2016
+PURPOSE: The JavaScript document, which contains scripting to the whole website. 
+We added a googleMap with a marker into our website. Credit: https://developers.google.com/maps/documentation/javascript/adding-a-google-map. | Google. 
+*/
 /*================================================================================*/
 /*Meny fixed to top when scrolling function */
 
@@ -46,6 +53,7 @@ meny.addEventListener('mouseout' , function (event) {
 
 /*================================================================================*/
 /*googleMaps*/
+/*Credit: https://developers.google.com/maps/documentation/javascript/adding-a-google-map | Google */
 
 function googleMaps() {
         var uluru = {lat: 63.42982, lng: 10.36732};

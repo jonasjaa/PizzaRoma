@@ -1,0 +1,48 @@
+body{
+	width:auto;
+	height:auto;
+	background-color:lightgrey;
+}
+
+header{
+	background-color:black;
+	color:white;
+	font-family:Georgia;
+	font-size:14px;
+	text-align:center;
+	width:auto;
+	margin-top:-15px;
+	margin-left:-15px;
+	margin-right:-8px;
+	padding-top:10px;
+	height:50px;
+}
+
+h2{
+	text-align:center;
+}
+
+#big{
+	color:black;
+	font-family:Georgia;
+	font-size:20px;
+	line-height:2em;
+	text-align:left;
+}
+
+article{
+	background-color:lightgrey;
+	color:black;
+	font-family:Georgia;
+	font-size:17px;
+	line-height:2em;
+	text-align:left;
+	width:60%;
+	margin:auto;
+	height:auto;
+}
+
+table, tr, th{
+	padding:2px;
+	border:1px solid;
+}
