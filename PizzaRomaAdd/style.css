@@ -1018,6 +1018,35 @@ ol{
 		z-index: 2;
 		background-color: #ddddbb;
 	}
+	
+	/* FJERDE RAD */
+	.box3 {
+		box-sizing: border-box;
+		border-top: 1px solid;
+		width: 33.333333333%;
+		height: auto;
+		z-index: 2;
+		background-color: #ddddbb;
+	}
+	/* FEMTE RAD */
+	.box4 {
+		box-sizing: border-box;
+		border-top: 1px solid;
+		width: 33.333333333%;
+		height: auto;
+		z-index: 2;
+		background-color: #ddddbb;
+	}
+
+	/* SJETTE RAD */
+	.box5 {
+		box-sizing: border-box;
+		border-top: 1px solid;
+		width: 33.333333333%;
+		height: auto;
+		z-index: 2;
+		background-color: #ddddbb;
+	}
 
 	#box5.box2{
 		margin-bottom: 50px;
