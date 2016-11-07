@@ -16,3 +16,6 @@ git pull
 git checkout -b "ny branchnavn" (merger automagisk med master)
 
 ALDRI ENDRE SAMME FIL SAMTIDIG!!!!!!!!!!!!!!
+
+Hvis error: unable to update local ref
+git gc --prune=now
