@@ -392,6 +392,21 @@ ol{
     height: 100 px;
 }
 
+#container {
+	width: 40%;
+	margin: auto;
+	position: relative;
+}
+
+#img {
+	height: 450px;
+	width: 650;
+	position: absolute;
+	margin: 10%;
+}
+
+
+
 /*==================STOR========================================================================*/
 
 @media screen and (min-width: 650px) {

@@ -8,7 +8,6 @@ We added a googleMap with a marker into our website. Credit: https://developers.
 /*================================================================================*/
 /*Meny fixed to top when scrolling function */
 
-
 function scrollStopMeny(){
 	if(document.body.scrollTop > 100){
 		document.getElementById('meny').style.top = "0";
@@ -66,3 +65,20 @@ function googleMaps() {
           map: map
         });
       }
+	  
+/*================================================================================*/
+/*Image Slide*/	  
+	  
+let imagecount = 1;
+let total = 4;
+
+window.setInterval(function slideA() {
+	let image = document.getElementById('img');
+	imagecount += 1;
+	
+	if(imagecount > total){ imagecount = 1}
+	if(imagecount < 1){ imagecount = total}
+	
+	image.src = 'img' + imagecount+'.svg';
+	
+},2000);
