@@ -338,6 +338,62 @@ ol{
         text-align: center;
         box-shadow: 10px 10px 5px #888888;
     }
+<<<<<<< HEAD
+=======
+
+#kontaktadresse{
+        position: absolute;
+        width: 32%;
+        height: 160px;
+        right:0;
+        padding:15px;
+        border: 1px solid;
+        border-radius: 5px;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 20px;;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 10px 10px 5px #888888;
+    }
+
+#delelinje {
+    margin-top: calc(5% + 200px);
+    margin-bottom: 15px
+}
+
+#facebook {
+    
+    width:400px ;
+    height: 50px;
+    transform: translate(-50%);
+    margin-left: 50%;
+}
+
+#facebookpic:hover {
+    opacity: 0.8;
+}
+#facebookpic {
+    width:140px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 25px;
+    opacity: 1;
+}
+#likeshare {
+    position: absolute;
+    top: 5px;
+    left: 185px;
+}
+
+#justeatbilde {
+    position: absolute;
+    top: 340px;
+    transform: translate(-50%);
+    left: 50%;
+    width: 250px;
+    height: 100 px;
+}
+>>>>>>> erik
 
 #kontaktadresse{
         position: absolute;
