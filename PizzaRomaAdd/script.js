@@ -79,6 +79,6 @@ window.setInterval(function slideA() {
 	if(imagecount > total){ imagecount = 1}
 	if(imagecount < 1){ imagecount = total}
 	
-	image.src = '../img/slide/img' + imagecount+'.svg';
+	image.src = '../img/slide/img' + imagecount+'.jpg';
 	
 },2000);
