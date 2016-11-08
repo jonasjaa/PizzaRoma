@@ -26,11 +26,10 @@ body{
 	min-height: calc(100vh - 50px);
 	background-color: white;
 }
-
-#footer{
-	position: absolute;
-		bottom: 0;
-		left: 0;
+ #footer{
+ 	position: absolute; 
+ 	bottom: 0;
+	left: 0;
 	background-color: #c2203b;
 	width:100%;
 	height: 50px;
@@ -393,6 +392,46 @@ ol{
 	width: 100%;
 }
 
+#omossDIV {
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%);
+    border: 1px solid;
+    padding:20px;
+    border-radius: 10px;
+    width:84%;
+    min-width: 480px;
+    height:220px;
+    background-color: #ddddbb;
+}
+
+    #googleMaps{
+    position: absolute;
+    transform: translate(-50%);
+    left:50%;
+    top:60%;
+    height: 280px;
+    border-radius: 10px;
+    width:80%;
+    border: 1px solid;
+    min-width: 500px;
+}
+
+#omossDIV2{
+    position: absolute;
+    top:15%;
+    left:50%;
+    height:auto;
+    transform: translate(-50%);
+    border: 1px solid;
+    border-radius: 10px;
+    width:90%;
+    min-width: 500px;
+    
+    background-color: #ddddbb;
+}
+
 /*=============================================================================================*/
 /*======================================RESPONSIVE DESIGN======================================*/
 
@@ -534,7 +573,7 @@ ol{
 
     #omossDIV{
         position: absolute;
-        top:43%;
+        top:37%;
         left:24%;
         transform: translate(-50%);
         border: 1px solid;
@@ -542,7 +581,7 @@ ol{
         border-radius: 10px;
         width:43%;
         min-width: 450px;
-        height:auto;
+        height:220px;
         background-color: #ddddbb;
     }
 
@@ -609,12 +648,14 @@ ol{
         position: absolute;
         transform: translate(-50%);
         left:74%;
-        top:43%;
+        top:37%;
         height: 280px;
         border-radius: 10px;
         width:50%;
         border: 1px solid;
     }
+
+    
 
 }
 
@@ -643,7 +684,7 @@ ol{
 
     #omossDIV2{
         position: absolute;
-        top:17%;
+        top:15%;
         left:50%;
         height:auto;
         min-height: 175px;
@@ -656,22 +697,22 @@ ol{
 
     #omossDIV{
         position: absolute;
-        top:47%;
+        top:36%;
         left:50%;
         transform: translate(-50%);
         border: 1px solid;
         padding:20px;
         border-radius: 10px;
         width:60%;
-        height:auto;
+        height:220px;
         background-color: #ddddbb;
     }
 
     #åpningstider{
         font-family: Trebuchet MS, sans-serif;
         font-size: 16px;
-        left:0;
-        height: 50%;'
+        left:30px;
+        height: 50%;
         position: absolute;
         display: inline-block;
     }
@@ -730,11 +771,15 @@ ol{
         position: absolute;
         transform: translate(-50%);
         left:50%;
-        top:85%;
+        top:65%;
         height: 280px;
         border-radius: 10px;
         width:80%;
         border: 1px solid;
+    }
+
+    #heleomoss {
+    	height: 1030px;
     }
 
 }
@@ -753,6 +798,7 @@ ol{
 
 	ol{
 	font-size: 22px;
+	}
 }
 
 /*=============================================================================================*/
@@ -964,42 +1010,4 @@ ol{
 	}
 }
 	  
-     #omossDIV{
-        position: absolute;
-        top:35%;
-        left:50%;
-        transform: translate(-50%);
-        border: 1px solid;
-        padding:20px;
-        border-radius: 10px;
-        width:84%;
-        min-width: 480px;
-        height:auto;
-        background-color: #ddddbb;
-    }
-    
-        #googleMaps{
-        position: absolute;
-        transform: translate(-50%);
-        left:50%;
-        top:72%;
-        height: 280px;
-        border-radius: 10px;
-        width:80%;
-        border: 1px solid;
-        min-width: 500px;
-    }
-    
-    #omossDIV2{
-        position: absolute;
-        top:2%;
-        left:50%;
-        height:auto;
-        transform: translate(-50%);
-        border: 1px solid;
-        border-radius: 10px;
-        width:90%;
-        min-width: 500px;
-        
-        background-color: #ddddbb;
-    }
+     
