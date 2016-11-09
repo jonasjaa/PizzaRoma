@@ -279,7 +279,7 @@ ol{
 
 #kontaktossdiv {
     position: absolute;
-    margin-top: 130px;
+    margin-top: 120px;
     left: 50%;
     transform: translate(-50%);
     height: auto;
@@ -573,7 +573,7 @@ ol{
 
     #omossDIV{
         position: absolute;
-        top:37%;
+        top:43%;
         left:24%;
         transform: translate(-50%);
         border: 1px solid;
@@ -648,14 +648,12 @@ ol{
         position: absolute;
         transform: translate(-50%);
         left:74%;
-        top:37%;
+        top:43%;
         height: 280px;
         border-radius: 10px;
         width:50%;
         border: 1px solid;
     }
-
-    
 
 }
 
@@ -1009,5 +1007,3 @@ ol{
 		line-height: 2.5em;
 	}
 }
-	  
-     
