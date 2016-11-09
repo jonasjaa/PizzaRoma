@@ -216,7 +216,7 @@ body{
     color: #FFF;
 }
 
-#menytxt{
+.menytxt{
 	margin-top:12px;
 	text-align: center;
 	color: black;
@@ -225,7 +225,7 @@ body{
 	font-size: 20px;
 }
 
-#menytxt:hover{
+.menytxt:hover{
 	color:white;
 }
 
@@ -247,7 +247,7 @@ h3{
 	height: 130px;
 }
 
-#allergendiv{
+.allergendiv{
 	margin-top:100px;
 	float:left;
 	width: calc(33.3333333333333% - 1px);
@@ -256,7 +256,7 @@ h3{
 	background-color: #327a0c;
 }
 
-#allergentextdiv{
+.allergentextdiv{
 	position: relative;
 	left:65%;
 	transform: translate(-50%);
@@ -264,7 +264,7 @@ h3{
 	width:70%;
 }
 
-#allergenbilde{
+.allergenbilde{
 	width:10%;
 	height:10%;
 	margin-right: 4px;
@@ -786,11 +786,11 @@ ol{
 /*Responsive design with width under 870px*/
 
 @media screen and (max-width: 870px) {
-	#allergendiv{
+	.allergendiv{
 		width:calc(33.333333% - 1px);
 	}
 
-	#allergentextdiv{
+	.allergentextdiv{
 		left:50%;
 	}
 
@@ -963,7 +963,7 @@ ol{
 		background-color: #ddddbb;
 	}
 
-	/* SJETTE RAD */
+	/* SJETTE RADz */
 	.box5 {
 		box-sizing: border-box;
 		border-top: 1px solid;
@@ -977,7 +977,7 @@ ol{
 		margin-bottom: 50px;
 	}
 
-	#allergendiv{
+	.allergendiv{
 		margin-top:0px;
 		width:100%;
 		min-height:auto;	
@@ -985,7 +985,7 @@ ol{
 		border-right: 1px solid black;
 	}
 
-	#allergentextdiv{
+	.allergentextdiv{
 		position: relative;
 		margin-left: 23%;
 		top:0;
@@ -994,7 +994,7 @@ ol{
 		margin-top:-20px;
 	}
 
-	#allergenbilde{
+	.allergenbilde{
 		width:10%;
 		height:10%;
 		margin-right: 4px;
