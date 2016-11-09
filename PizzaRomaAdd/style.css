@@ -2,7 +2,7 @@
 FILE NAME: style.css
 WRITTEN BY: Erik Stensrud Larsen, Sondre Strande Dahl, Per Erik Korssjøen, Piruthusan Arulnesan, Jonas Jevnaker Aas
 WHEN: November 2016
-PURPOSE: The styling document, which contains styling to the whole website. 
+PURPOSE: The styling document, which contains styling to the whole website.
 */
 /*=============================================================================================*/
 /*CASCADING STYLE SHEET*/
@@ -27,7 +27,7 @@ body{
 	background-color: white;
 }
  #footer{
- 	position: absolute; 
+ 	position: absolute;
  	bottom: 0;
 	left: 0;
 	background-color: #c2203b;
@@ -230,14 +230,14 @@ body{
 }
 
 h1{
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Trebuchet MS', sans-serif;
 	font-size: 1.7vw;
 	text-align: center;
 }
 
 h3{
 	margin-top:-1.5px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Trebuchet MS', sans-serif;
 	font-size: 20px;
 	text-align: center;
 }
@@ -271,7 +271,7 @@ h3{
 }
 
 ol{
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Trebuchet MS', sans-serif;
 	font-size: 30px;
 	color:white;
 	line-height: 2.5em;
@@ -307,7 +307,7 @@ ol{
     padding:15px;
     border: 1px solid;
     border-radius: 5px;
-    font-family: Trebuchet MS, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 17px;
     display: inline-block;
     text-align: center;
@@ -322,7 +322,7 @@ ol{
     padding:15px;
     border: 1px solid;
     border-radius: 5px;
-    font-family: Trebuchet MS, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 20px;;
     display: inline-block;
     text-align: center;
@@ -428,7 +428,7 @@ ol{
     border-radius: 10px;
     width:90%;
     min-width: 500px;
-    
+
     background-color: #ddddbb;
 }
 
@@ -440,7 +440,7 @@ ol{
 
 
 @media screen and (min-width: 650px) {
-	
+
 	#headerimg{
 		position: absolute;
 		top:7px;
@@ -539,7 +539,7 @@ ol{
 		background-color: #ddddbb;
 		margin-bottom: 50px;
 	}
-    
+
     #omoss{
 		margin-top: 8%;
 		width: 100%;
@@ -548,7 +548,7 @@ ol{
     }
 
     #generellInfo{
-        font-family: Trebuchet MS, sans-serif;
+        font-family: 'Trebuchet MS', sans-serif;
         font-size: 16px;
         font-weight: bold;
         position: relative;
@@ -567,7 +567,7 @@ ol{
         border: 1px solid;
         border-radius: 10px;
         width:90%;
-        
+
         background-color: #ddddbb;
     }
 
@@ -585,8 +585,8 @@ ol{
         background-color: #ddddbb;
     }
 
-    #åpningstider{
-        font-family: Trebuchet MS, sans-serif;
+    #apningstider{
+        font-family: 'Trebuchet MS', sans-serif;
         font-size: 16px;
         left:0;
         height: 50%;'
@@ -603,7 +603,7 @@ ol{
         padding:15px;
         border: 1px solid;
         border-radius: 5px;
-        font-family: Trebuchet MS, sans-serif;
+        font-family: 'Trebuchet MS', sans-serif;
         font-size: 17px;
         display: inline-block;
         text-align: center;
@@ -619,7 +619,7 @@ ol{
         padding:15px;
         border: 1px solid;
         border-radius: 5px;
-        font-family: Trebuchet MS, sans-serif;
+        font-family: 'Trebuchet MS', sans-serif;
         font-size: 20px;;
         display: inline-block;
         text-align: center;
@@ -638,7 +638,7 @@ ol{
 
     #kontaktinfo{
         position: relative;
-        font-family: Trebuchet MS, sans-serif;
+        font-family: 'Trebuchet MS', sans-serif;
         font-size: 22px;
         display: inline-block;
         margin-left: -5%;
@@ -661,7 +661,7 @@ ol{
 /*Responsive design with width under 1255px*/
 
 @media screen and (max-width: 1255px) {
-        
+
     #omoss{
 		margin-top: 8%;
 		width: 100%;
@@ -670,7 +670,7 @@ ol{
     }
 
     #generellInfo{
-        font-family: Trebuchet MS, sans-serif;
+        font-family: 'Trebuchet MS', sans-serif;
         font-size: 16px;
         font-weight: bold;
         position: relative;
@@ -706,8 +706,8 @@ ol{
         background-color: #ddddbb;
     }
 
-    #åpningstider{
-        font-family: Trebuchet MS, sans-serif;
+    #apningstider{
+        font-family: 'Trebuchet MS', sans-serif;
         font-size: 16px;
         left:30px;
         height: 50%;
@@ -724,7 +724,7 @@ ol{
         padding:15px;
         border: 1px solid;
         border-radius: 5px;
-        font-family: Trebuchet MS, sans-serif;
+        font-family: 'Trebuchet MS', sans-serif;
         font-size: 17px;
         display: inline-block;
         text-align: center;
@@ -740,7 +740,7 @@ ol{
         padding:15px;
         border: 1px solid;
         border-radius: 5px;
-        font-family: Trebuchet MS, sans-serif;
+        font-family: 'Trebuchet MS', sans-serif;
         font-size: 20px;;
         display: inline-block;
         text-align: center;
@@ -759,7 +759,7 @@ ol{
 
     #kontaktinfo{
         position: relative;
-        font-family: Trebuchet MS, sans-serif;
+        font-family: 'Trebuchet MS', sans-serif;
         font-size: 22px;
         display: inline-block;
         margin-left: -5%;
@@ -841,7 +841,7 @@ ol{
 		height:40px;
 		background-color: #d6334e;
 	}
-    
+
     #meny2dropdown{
 		width:auto;
 	    min-width: 55%;
@@ -943,7 +943,7 @@ ol{
 		z-index: 2;
 		background-color: #ddddbb;
 	}
-	
+
 	/* FJERDE RAD */
 	.box3 {
 		box-sizing: border-box;
@@ -980,7 +980,7 @@ ol{
 	#allergendiv{
 		margin-top:0px;
 		width:100%;
-		min-height:auto;	
+		min-height:auto;
 		background-color: #327a0c;
 		border-right: 1px solid black;
 	}
@@ -1001,7 +1001,7 @@ ol{
 	}
 
 	ol{
-		font-family: Trebuchet MS, sans-serif;
+		font-family: 'Trebuchet MS', sans-serif;
 		font-size: 30px;
 		color:white;
 		line-height: 2.5em;
